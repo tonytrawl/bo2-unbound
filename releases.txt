@@ -1,0 +1,2 @@
+# REGION_KEY|VERSION|UPDATE_URL|UPDATE_SHA256|AOC_URL|AOC_SHA256
+# No live package is advertised until every matching GitHub Release asset is online.

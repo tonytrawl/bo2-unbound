@@ -1,0 +1,300 @@
+{
+  "schemaVersion": 2,
+  "createdAt": "2026-09-16T23:32:37.568252Z",
+  "region": "USA",
+  "titleId": "1010cf00",
+  "version": "0.0.01",
+  "tag": "v0.0.01",
+  "components": [
+    {
+      "name": "update",
+      "assetName": "unbound-USA-0.0.01-update.zip",
+      "downloadUrl": "https://github.com/tonytrawl/bo2-unbound/releases/download/v0.0.01/unbound-USA-0.0.01-update.zip",
+      "sha256": "2171019a395bd0ae7f5a9d9cf49ae1e86681b130978c0c1937ed3b5106a09387",
+      "byteSize": 662556202,
+      "uncompressedBytes": 662551752,
+      "files": [
+        {
+          "path": "update/code/app.xml",
+          "size": 527,
+          "sha256": "2d28d6977c2728ad34eb23e2ffa5aad1ca2becf31233b9bfd0d69ed2dc2191ee"
+        },
+        {
+          "path": "update/code/cos.xml",
+          "size": 3943,
+          "sha256": "7fc71917d1fc582eb5ca7c6e8bc7148beded078a0d62d78523ccc2c2a44b9e8c"
+        },
+        {
+          "path": "update/code/t6_cafef_launcher.rpx",
+          "size": 4800,
+          "sha256": "c15d315b0da2ace11a3eccdab6ae2083bea9fd7791d4fe151bee9fc1970505c1"
+        },
+        {
+          "path": "update/code/t6_cafef_rpl.rpl",
+          "size": 7010120,
+          "sha256": "7c3f703c2a55c1da0952cd33b4c973e594d23a6558aff39c750b84b346e82ee8"
+        },
+        {
+          "path": "update/code/t6mp_cafef_rpl.rpl",
+          "size": 8053784,
+          "sha256": "d259e574df275fe79cc613d9fdccb742afa7339430d2af3b968bb5a8065278e2"
+        },
+        {
+          "path": "update/content/base_split8.ipak",
+          "size": 459276288,
+          "sha256": "b744fc13f43d98fa279d250064cec300f87bd5180adecce58c962fd806f3156d"
+        },
+        {
+          "path": "update/content/english/dlc1_load_mp.ff",
+          "size": 524288,
+          "sha256": "8d6a7aa6d5f15e0dd3761f438f761d71182ebac47aee2b3e37cd37c88745b2fc"
+        },
+        {
+          "path": "update/content/english/en_patch_loc_zm.ff",
+          "size": 45632,
+          "sha256": "cb06669b3d17403687ae1bb24513ee2dbb69daa504b80cc5d4f71c4438f62155"
+        },
+        {
+          "path": "update/content/english/patch_mp.ff",
+          "size": 4980736,
+          "sha256": "b52734e0f7368511a817fae12cb73ee2b358595ed848698b271d1f5b95b50437"
+        },
+        {
+          "path": "update/content/english/patch_ui_mp.ff",
+          "size": 2097152,
+          "sha256": "635e2a21ac0a515864dcafcbb1d3c332b2f611939f2cd3f1c1b8c563686bd6ac"
+        },
+        {
+          "path": "update/content/english/patch_ui_zm.ff",
+          "size": 1701632,
+          "sha256": "891c88e678f7eea259d35c29f7166883045c15bf9bda21265d519589c934b937"
+        },
+        {
+          "path": "update/content/english/patch_zm.ff",
+          "size": 4456448,
+          "sha256": "e93224d70d8d60bbdd712aa0a49469e896077ad745542342805e1b3c3635403a"
+        },
+        {
+          "path": "update/content/english/zm_nuked_patch.ff",
+          "size": 1835008,
+          "sha256": "ab7245c0f661a65647fe8e029e2f58218e44c5d55cd2fc3c75e30639b42ab3fa"
+        },
+        {
+          "path": "update/content/mods/active.cmod",
+          "size": 1215,
+          "sha256": "3487684d9bbb8a133d58ac5c269d618033c007b79dcbf9a505890291778fe769"
+        },
+        {
+          "path": "update/content/mods/darksurvival/modload.txt",
+          "size": 114,
+          "sha256": "c5b1dd4cf135d7d5dab9e241540737b8464194815116c6763c39b2b7533d2e29"
+        },
+        {
+          "path": "update/content/mods/darksurvival/scripts/clientscripts/mp/gametypes/modload.csc",
+          "size": 4163,
+          "sha256": "84cf8fe5d6a11b5554c5110d15f7d13fcdf2454384a7cf55c68abb3ec960e8da"
+        },
+        {
+          "path": "update/content/mods/darksurvival/scripts/maps/mp/gametypes/modload.gsc",
+          "size": 127086,
+          "sha256": "771925090145cb9759284cac9f89641297ebe4157d2d4aeb7fb1b4c55c84bf53"
+        },
+        {
+          "path": "update/content/mods/darksurvival/scripts/mp/gamesettings_modload.cfg",
+          "size": 752,
+          "sha256": "bec9a478918966bd8997ff23d7bdf98be64def6cd5e55514fb8426a512af0dc9"
+        },
+        {
+          "path": "update/content/mods/darksurvival/scripts/ui_mp/t6/hud/scorebottomleft.lua",
+          "size": 20515,
+          "sha256": "5712e71cd522f18502d19766abf76bca1d563af72a1426ede9abb47a3c4566cd"
+        },
+        {
+          "path": "update/content/mods/drc_fov_slider/modload.txt",
+          "size": 180,
+          "sha256": "5c545e4b6ab467255af22cb1313034fa531229855a99a4e0f5298b71bcfe888c"
+        },
+        {
+          "path": "update/content/mods/drc_fov_slider/scripts/ui_mp/t6/drc/drcfov.lua",
+          "size": 14913,
+          "sha256": "8fe269c72d640629fbffa0e0352322bd3249f6c9bd1c17b6523665e0fbc7802f"
+        },
+        {
+          "path": "update/content/mods/selected.cfg",
+          "size": 8,
+          "sha256": "59c020cc4b2f44cfbfbc78fe7839b571cb22aa9508619ae6b4fa1e69b9f2b005"
+        },
+        {
+          "path": "update/content/mp_skate.ipak",
+          "size": 148111360,
+          "sha256": "c37246cbaae405aedd4694b2f9030df383e2bb2ee63b6b3edeb11a976631f73e"
+        },
+        {
+          "path": "update/content/patch_mp.ipak",
+          "size": 24182784,
+          "sha256": "30afe6af7b197e700b06664cc5375638d8a9a1ee665a6ed38f481147d5fdccc0"
+        },
+        {
+          "path": "update/content/patch_zm.ipak",
+          "size": 98304,
+          "sha256": "9807411be46a7db3078a6c9eb400cc9e5b992fada3c92d4507cd3efa986c3416"
+        }
+      ]
+    },
+    {
+      "name": "aoc",
+      "assetName": "unbound-USA-0.0.01-aoc.zip",
+      "downloadUrl": "https://github.com/tonytrawl/bo2-unbound/releases/download/v0.0.01/unbound-USA-0.0.01-aoc.zip",
+      "sha256": "fcdc9f07fb65237ae5619967bf08661192448b1982c329a6ce1bb7ca4595c666",
+      "byteSize": 1863226090,
+      "uncompressedBytes": 1863221248,
+      "files": [
+        {
+          "path": "aoc/content/0010/base_split8.ipak",
+          "size": 459276288,
+          "sha256": "723d3b73ac5b162ea56530d8ceb2d162d98cd5088a6d4ae526b41f37d8a54f01"
+        },
+        {
+          "path": "aoc/content/0010/dlc0_load_zm.ipak",
+          "size": 5505024,
+          "sha256": "1b630b0437390d65c68440cd3569647725f1d299128bd4393e72ad4001d262c4"
+        },
+        {
+          "path": "aoc/content/0010/dlc1_load_zm.ipak",
+          "size": 6029312,
+          "sha256": "a376e6e861c87753d3e6e4143f5d4682c79a0c07695d221837873b45f7845e2b"
+        },
+        {
+          "path": "aoc/content/0010/dlc2_load_zm.ipak",
+          "size": 5767168,
+          "sha256": "b8bda7f462fa5b6e8cec76bfcd183171765e9bef7c43e4e457a8d22f65dbf011"
+        },
+        {
+          "path": "aoc/content/0010/dlc3_load_zm.ipak",
+          "size": 8650752,
+          "sha256": "5397eb46e4d5336e378b0041b259e11a20ca23366f0925b0d7158fdc21d6e5f5"
+        },
+        {
+          "path": "aoc/content/0010/dlc4_load_zm.ipak",
+          "size": 7077888,
+          "sha256": "4479223a7aac5700b06a5ac49f29767f3c3d3e00f167bc334fe84439e1159ef5"
+        },
+        {
+          "path": "aoc/content/0010/dlczm0.ipak",
+          "size": 130547712,
+          "sha256": "8ebfed1acc8da3023b6dd36cd862f31b1b7975e8f358418db07258373be48be9"
+        },
+        {
+          "path": "aoc/content/0010/dlczm0_load_zm.ipak",
+          "size": 5505024,
+          "sha256": "1b630b0437390d65c68440cd3569647725f1d299128bd4393e72ad4001d262c4"
+        },
+        {
+          "path": "aoc/content/0010/dlczm1.ipak",
+          "size": 158072832,
+          "sha256": "7aa6ff11f1409c60c9c994c6be0b5f36d19b7db58e50572ad5ec3efee9937a3c"
+        },
+        {
+          "path": "aoc/content/0010/english/dlczm0_load_zm.ff",
+          "size": 524288,
+          "sha256": "adb95761bdb1a9d30b6e77214085504a3adb72923c580978a97f59c497f6d212"
+        },
+        {
+          "path": "aoc/content/0010/english/mp_skate.ff",
+          "size": 34340864,
+          "sha256": "9714ad7aacd212ec522460082b4de22a69e3a5367402e8b7e4e8bf9d46e72727"
+        },
+        {
+          "path": "aoc/content/0010/english/zm_nuked.ff",
+          "size": 73662464,
+          "sha256": "6b39c9feddcd247a22232de931482a33639ff563e427f7718129a85d6e58b42e"
+        },
+        {
+          "path": "aoc/content/0010/mp_frostbite.ipak",
+          "size": 105119744,
+          "sha256": "f510b9a3e766f546e74dbc37a46d1871fd1dfc35c8d8e1e712ce1a87d3e48964"
+        },
+        {
+          "path": "aoc/content/0010/mp_mirage.ipak",
+          "size": 208142336,
+          "sha256": "658d082e1bd005b0bc6cdd29849aa97ee7edcc3594936be54f796cbd16ce10dc"
+        },
+        {
+          "path": "aoc/content/0010/mp_nuketown_2020.ipak",
+          "size": 173015040,
+          "sha256": "0b903ee4319d4630f9372c58110587cf0355440e22ad553accd073bd18eeabf4"
+        },
+        {
+          "path": "aoc/content/0010/mp_skate.ipak",
+          "size": 205520896,
+          "sha256": "061c483f7a6fe1d82128ec04b7106d1348aff32101e8158d117e50cfd6cfcd3f"
+        },
+        {
+          "path": "aoc/content/0010/sound/loaded/mpl_mirage.all.sabl",
+          "size": 1470464,
+          "sha256": "d51955dc9aaba9c703cbdb9a02be2cb1e117b766c17e7b63e4740f11e695906d"
+        },
+        {
+          "path": "aoc/content/0010/sound/loaded/mpl_skate.all.sabl",
+          "size": 755712,
+          "sha256": "35968026e63946b7a7c84f51fd7ddf76507d65baeae5c2fb045212b6e8400d7d"
+        },
+        {
+          "path": "aoc/content/0010/sound/mpl_mirage.all.sabs",
+          "size": 1622016,
+          "sha256": "0b3027a46691d33ec42f2759a1d4172e3acab3105559bb3e536f40085ea0aa4c"
+        },
+        {
+          "path": "aoc/content/0010/sound/mpl_skate.all.sabs",
+          "size": 3504128,
+          "sha256": "f163cf7f889852f6ad375df5b3ec98128d6eceb45dd54242c2de3679597da187"
+        },
+        {
+          "path": "aoc/content/0010/sound/zmb_alcatraz_load.all.sabs",
+          "size": 1552384,
+          "sha256": "e4b3e98c7ebfbfd654b6f088be005a68fdee3686645cd51b1556a74c92ee2b03"
+        },
+        {
+          "path": "aoc/content/0010/sound/zmb_buried_load.all.sabs",
+          "size": 7456768,
+          "sha256": "bc336d17932b2805934bc9b60e85e795c903d564411c61cc4fb1a8dcf01efae4"
+        },
+        {
+          "path": "aoc/content/0010/sound/zmb_common.all.sabs",
+          "size": 50888704,
+          "sha256": "78bf263dd29b32a7bc3b836ac7c449c60f771f652c5909b94d2d994727f018ef"
+        },
+        {
+          "path": "aoc/content/0010/sound/zmb_nuked_real_intro.all.sabs",
+          "size": 1069056,
+          "sha256": "288dc1c26538f9bba94238ad4ee206e564c5c5f8bf7118d5a68583ddd2579cc8"
+        },
+        {
+          "path": "aoc/content/0010/sound/zmb_rt_load.all.sabs",
+          "size": 2295808,
+          "sha256": "32dea1f5aec7596e89380966cc1ffe14672fcaddf667db32a5691eb3f3f0a889"
+        },
+        {
+          "path": "aoc/content/0010/sound/zmb_tomb_load.all.sabs",
+          "size": 8978432,
+          "sha256": "39654a3169f27202f7d5f0b0a0fd78af3f2b5213f117538556229166543af5e5"
+        },
+        {
+          "path": "aoc/content/0010/zm_nuked.ipak",
+          "size": 194772992,
+          "sha256": "6f8a15a91d1d0bc9e191474d27915bd783b68cf97c3f8062691b63d1fc2b632c"
+        },
+        {
+          "path": "aoc/content/0010/zm_nuked_patch.ipak",
+          "size": 2097152,
+          "sha256": "b32595beaf543e63f57c1dd9e5c0bb3421a1eb04d98190d8438276a0a8f08a47"
+        }
+      ]
+    }
+  ],
+  "excludedSourcePaths": [
+    "update/content/english/patch_zm - Copy.ff",
+    "update/content/mods/darksurvival/modload.txt.nocmd.bak",
+    "update/content/mods/selected.cfg.was_sdclone.bak"
+  ]
+}

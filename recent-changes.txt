@@ -1,0 +1,11 @@
+Black Ops 2 Unbound HQ v0.0.01 Beta
+
+- First public USA beta release.
+- Added a verified two-part installer for the UPDATE and AOC payloads.
+- Added automatic regional game, update, AOC, and storage detection.
+- Added the HQ landing page, update status, game launching, and Workshop preview.
+
+Beta notes:
+- This release currently supports the USA title ID 1010CF00 only.
+- The matching official Black Ops II update and AOC title must already be installed.
+- Workshop comments and ratings remain a local preview until the community API is online.

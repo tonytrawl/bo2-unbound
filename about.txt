@@ -1,0 +1,10 @@
+ABOUT BLACK OPS 2 UNBOUND HQ
+
+Black Ops 2 Unbound HQ is a Wii U homebrew application for installing and updating the
+Black Ops 2 Unbound project and browsing curated community Workshop content.
+
+The application detects the installed regional game, update, AOC, and storage location before
+writing files. Downloads are versioned and verified with SHA-256 before installation.
+
+Black Ops 2 Unbound is a community project and is not affiliated with Nintendo, Activision,
+Treyarch, or Pretendo Network.
