@@ -1,3 +1,0 @@
-# REGION_KEY|VERSION|UPDATE_URL|UPDATE_SHA256|AOC_URL|AOC_SHA256
-# Activate only after every matching v0.0.01 GitHub Release asset is online.
-USA|0.0.01|https://github.com/tonytrawl/bo2-unbound/releases/download/v0.0.01/unbound-USA-0.0.01-update.zip|2171019a395bd0ae7f5a9d9cf49ae1e86681b130978c0c1937ed3b5106a09387|https://github.com/tonytrawl/bo2-unbound/releases/download/v0.0.01/unbound-USA-0.0.01-aoc.zip|fcdc9f07fb65237ae5619967bf08661192448b1982c329a6ce1bb7ca4595c666
