@@ -1,11 +1,9 @@
 Black Ops 2 Unbound HQ v0.0.01 Beta
 
-- First public USA beta release.
-- Added a verified two-part installer for the UPDATE and AOC payloads.
-- Added automatic regional game, update, AOC, and storage detection.
-- Added the HQ landing page, update status, game launching, and Workshop preview.
+- First open beta release.
+- Project Kennel release V1.0
+- FOV slider with Protarium support 
 
-Beta notes:
-- This release currently supports the USA title ID 1010CF00 only.
-- The matching official Black Ops II update and AOC title must already be installed.
-- Workshop comments and ratings remain a local preview until the community API is online.
+Project KENNEL has lost control. Across the quarantine zone, military attack dogs obey a corrupted command: hunt until nothing remains. Their handlers are gone, their safeguards have failed, and the kennels are still releasing them.
+Fight the hordes with up to four soldiers. Scavenge supplies, upgrade your weapons, and keep your squad alive against relentless packs, burning explosives, and electrically charged predators. Hold out for extraction before the containment strike erases every trace of the program—including you.
+The silence between waves is only the next set of gates opening.
