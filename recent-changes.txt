@@ -1,6 +1,6 @@
-# Black Ops 2 Unbound v0.0.03 Beta
+## Grind and Project KENNEL Have Arrived
 
-## Grind Has Arrived
+![Beware of Seagulls](https://raw.githubusercontent.com/tonytrawl/bo2-unbound/refs/heads/main/Grindbeta.png)
 
 ### Included in this release
 
