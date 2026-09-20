@@ -1,3 +1,3 @@
 # PACKAGE_KEY|VERSION|DOWNLOAD_URL|SHA256
 # UNIVERSAL packages route localized @language files on the console.
-UNIVERSAL|0.0.02|https://github.com/tonytrawl/bo2-unbound/releases/download/v0.0.02/unbound-universal-0.0.02-full.zip|fd26b58f7e4725decaef99d485357fce196b8b0692be0e927c29836a0325703c
+UNIVERSAL|0.0.04|https://github.com/tonytrawl/bo2-unbound/releases/download/v0.0.04/unbound-universal-0.0.04-full.zip|7422c87b2aa07e1c05fcdec1048986727a4f97e9db972ce476339edac4a13a5f
