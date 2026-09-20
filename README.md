@@ -148,7 +148,7 @@ sd:/unbound/mods/
 For example:
 
 ```text
-sd:/unbound/mods/Town Survival/
+sd:/unbound/mods/Diner Survival/
 ├── modload.txt
 └── additional mod files...
 ```
@@ -156,8 +156,8 @@ sd:/unbound/mods/Town Survival/
 The preferred `modload.txt` format is:
 
 ```ini
-name=Town Survival
-description=A custom survival conversion for Town.
+name=Diner Survival
+description=A custom survival Experience for Diner.
 author=Example Author
 ```
 
@@ -213,16 +213,12 @@ does not crash the application.
 
 ### `Release feed: Server returned HTTP 404`
 
-HQ could not find its update-only manifest. Check that
-[`releases-update-only.txt`](https://raw.githubusercontent.com/tonytrawl/bo2-unbound/main/releases-update-only.txt)
-is available from the repository's `main` branch. GitHub may briefly cache a 404 after a new file
-is added; wait a minute, confirm that the raw link opens, and restart HQ.
+HQ could not find its update-only manifest. Check network connection. Releases may briefly cache a 404 after a new file
+is added if you are early to the download; wait a minute, and restart HQ.
 
-### HQ unexpectedly reports that Unbound is current
+### HQ reports that Unbound is current, but you have not installed it
 
 - Confirm that you are running the newest HQ WUHB.
-- Confirm that the update-only release feed is reachable.
-- Compare the feed version with the value in the detected update's `content/update.txt`.
 - Confirm that HQ detected the intended Black Ops II update installation.
 
 Do not manually create `update.txt` to bypass the installer. HQ writes it only after a successful
@@ -252,17 +248,6 @@ additional safety space instead of filling a device completely.
 - Confirm that the official game update is current for the region.
 - Confirm that the release contains every required FF, IPAK, and sound file.
 - Current packages must place map content under the update tree, not an AOC path.
-
-## Repository layout
-
-- `releases-update-only.txt` — active HQ update feed and SHA-256 values
-- `recent-changes.txt` — remotely rendered What's New content
-- `workshop.txt` — reserved Workshop catalog; currently inactive in the application
-- `about.txt` — project information
-- GitHub Releases — versioned HQ application and Unbound content downloads
-
-Release assets must be uploaded before their manifest entry is published. Never replace a public
-asset without also publishing a new version and checksum.
 
 ## Download integrity and safety
 
