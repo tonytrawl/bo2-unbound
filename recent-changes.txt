@@ -1,9 +1,28 @@
-Black Ops 2 Unbound HQ v0.0.01 Beta
+# Black Ops 2 Unbound v0.0.03 Beta
 
-- First open beta release.
-- Project Kennel release V1.0
-- FOV slider with Protarium support 
+## Grind Has Arrived
 
-Project KENNEL has lost control. Across the quarantine zone, military attack dogs obey a corrupted command: hunt until nothing remains. Their handlers are gone, their safeguards have failed, and the kennels are still releasing them.
-Fight the hordes with up to four soldiers. Scavenge supplies, upgrade your weapons, and keep your squad alive against relentless packs, burning explosives, and electrically charged predators. Hold out for extraction before the containment strike erases every trace of the program—including you.
-The silence between waves is only the next set of gates opening.
+![Grind multiplayer map featured in the Unbound beta](https://raw.githubusercontent.com/tonytrawl/bo2-unbound/refs/heads/main/Grindbeta.png)
+
+### Included in this release
+
+- **Grind MP map** — Take the fight to the legendary skate park.
+- **Project KENNEL** — Survive a containment zone overrun by weaponized attack dogs.
+- **Mod loader** — Load and manage supported Unbound mods.
+- **FOV slider** — Adjust your field of view to fit the way you play.
+
+---
+
+## Project KENNEL
+
+**Project KENNEL has lost control.** Across the quarantine zone, military attack dogs obey a corrupted command: *hunt until nothing remains.* Their handlers are gone, their safeguards have failed, and the kennels are still releasing them.
+
+Fight the hordes with up to **four soldiers**. Scavenge supplies, upgrade your weapons, and keep your squad alive against relentless packs, burning explosives, and electrically charged predators.
+
+*Hold out for extraction before the containment strike erases every trace of the program—including you.*
+
+---
+
+### Online Ready
+
+**Everything included in this beta supports online play through Protarium.**
