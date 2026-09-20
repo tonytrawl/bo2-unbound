@@ -6,9 +6,9 @@
 
 - **Grind MP map** — Take the fight to the legendary skate park.
 - **Project KENNEL** — Survive a containment zone overrun by weaponized attack dogs.
-- **Mod loader** — Load and manage supported Unbound mods.
+- **Mod loader** — Load and manage mods both in the HQ and ingame.
 - **FOV slider** — Adjust your field of view to fit the way you play.
-
+- **Sample Mods** — Some Mods to get you started including a port of **Chaos Mod by JF**
 ---
 
 ## Project KENNEL
