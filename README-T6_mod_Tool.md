@@ -41,33 +41,15 @@ formats.
 - Preserve the original file with a `.bak` backup on the first overwrite.
 - Open a complete in-app guide with **Help** or **F1**.
 
-## Public build scope
-
-This public release is for the **loose mod loader workflow**. It does not contain the
-developer fastfile builder and cannot create or modify `.ff` fastfiles.
-
-The tool also does not include:
-
-- game files or copyrighted game assets;
-- a patched RPL;
-- Cemu, Wii U firmware, or account/network configuration;
-- an installer for the loader itself.
-
-A compatible loader-enabled RPL must already be installed for the generated mod folder to
-load in-game.
-
 ## Requirements
 
 - Windows 10 or Windows 11, 64-bit.
 - A legally obtained copy of Call of Duty: Black Ops II for Wii U.
-- A compatible loose-mod-loader RPL for your game update and region.
-- Cemu or Wii U hardware configured to run that RPL.
-
-The standalone release does not require Python.
+- Project Unbound installed on a Wii U or Cemu
 
 ## Installation
 
-1. Download `Unbound_T6_Mod_Tool_Public_v1.0.exe` from the project release.
+1. Download `Unbound_T6_Mod_Tool_Public` from the project release.
 2. Put it in any writable folder.
 3. Run the executable.
 
@@ -84,11 +66,6 @@ release checksum before running it if one is supplied with the download.
 6. Select each edited file and use **File > Save** or press **Ctrl+S**.
 7. Resolve errors shown in the validation panel.
 8. Start the game, open the Mods menu, and select the mod.
-
-For Cemu, the common US update path is:
-
-```text
-%APPDATA%\Cemu\mlc01\usr\title\0005000e\1010cf00\content\mods
 ```
 
 You can also select **Edit Mod** and point the tool at an existing mod folder.
@@ -251,28 +228,6 @@ Assembly for supported byte-exact GSC editing, or use conversion without editing
 
 Validate `modload.txt`, avoid malformed CSV quoting, and stay within the loader's path, file,
 directory, and arena limits.
-
-## Building from source
-
-The prebuilt executable is the recommended distribution. The current build script expects
-the wider development tree beside this folder:
-
-```text
-../WiiU_FF_Studio/core
-../wiiu_ref
-../native_linker
-../tools
-```
-
-With those dependencies present, use Python 3.12 with PyInstaller, NumPy, and Pillow, then run:
-
-```bat
-build_public_tool.bat
-```
-
-The build runs the source self-test, packages a one-file Windows executable, and runs the
-self-test again from the packaged EXE. The public build script explicitly excludes the
-fastfile and zone-building modules.
 
 ## Credits
 
