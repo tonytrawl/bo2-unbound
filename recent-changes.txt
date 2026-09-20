@@ -2,8 +2,6 @@
 
 ## Grind Has Arrived
 
-![Grind multiplayer map featured in the Unbound beta](https://raw.githubusercontent.com/tonytrawl/bo2-unbound/refs/heads/main/Grindbeta.png)
-
 ### Included in this release
 
 - **Grind MP map** — Take the fight to the legendary skate park.
