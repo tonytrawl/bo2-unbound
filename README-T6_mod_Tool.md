@@ -1,10 +1,5 @@
 # Unbound T6 Mod Tool
 
-[![Release](https://img.shields.io/badge/release-public%201.0-e8a33d)](#installation)
-[![Platform](https://img.shields.io/badge/platform-Windows-4d8fd6)](#requirements)
-[![Target](https://img.shields.io/badge/target-Wii%20U%20%2F%20Cemu-46cf88)](#requirements)
-[![Fastfiles](https://img.shields.io/badge/fastfile%20builder-not%20included-7f8b9c)](#public-build-scope)
-
 A Windows editor and mod-folder builder for loose **Call of Duty: Black Ops II** Wii U mods.
 It creates the loader-ready folder structure, edits manifests and tables, compiles scripts,
 converts Wii U and PC bytecode, and imports Wii U texture replacements from common image
