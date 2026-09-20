@@ -7,6 +7,9 @@ HQ detects the game region, language, and storage device automatically. It check
 installed Unbound version against the current GitHub release, downloads the correct universal
 package, verifies it, and installs its files into the registered Black Ops II update title.
 
+**Project guides:** [Install and use Unbound HQ](#installing-hq) ·
+[Create mods with the Unbound T6 Mod Tool](README-T6_mod_Tool.md)
+
 > [!IMPORTANT]
 > Black Ops II must have its newest official game update installed before you use HQ:
 > **v128 for USA and Europe**, or **v96 for Japan**.
@@ -30,6 +33,8 @@ package, verifies it, and installs its files into the registered Black Ops II up
 - Copies local mods from the SD card into the game's `content/mods` folder.
 - Displays each local mod's name, author, and description from `modload.txt`.
 - Browses and removes individually installed mod folders through the Mod Manager.
+- Works with the companion [Unbound T6 Mod Tool](README-T6_mod_Tool.md) for creating and
+  validating loose mods on Windows.
 - Launches Black Ops II from HQ when a supported installed copy or inserted disc is found.
 - Keeps official AOC/DLC detection read-only; HQ does not create or modify an AOC title.
 
@@ -136,6 +141,32 @@ routing supports:
 
 Files placed directly under `update/content` remain directly under the game's update-content
 folder. HQ does not create, replace, repair, or delete AOC/DLC metadata or XML files.
+
+## Creating mods with the Unbound T6 Mod Tool
+
+This repository also includes the
+[Unbound T6 Mod Tool guide](README-T6_mod_Tool.md). The Unbound T6 Mod Tool is a separate
+Windows editor and mod-folder builder for creating loader-ready Black Ops II Wii U loose mods.
+
+The tool can:
+
+- Create a correctly structured mod folder and edit its `modload.txt` metadata.
+- Scaffold Multiplayer and Zombies scripts and gametypes.
+- Compile GSC or Lua source for Wii U or PC.
+- Convert supported scripts between Wii U and PC bytecode formats.
+- Edit CFG settings and CSV StringTables.
+- Import supported images as loose Wii U GX2 texture replacements.
+- Preview GX2 textures and validate mods against known loader limits.
+
+The roles of the two applications are different:
+
+1. Use the **Unbound T6 Mod Tool** on a Windows PC to create, edit, and validate the mod.
+2. Copy the finished mod folder to `sd:/unbound/mods/<mod-folder>/`.
+3. Use **Unbound HQ** on the Wii U to inspect the manifest and copy the mod into the game's
+   update `content/mods` directory.
+
+See the [complete T6 Mod Tool documentation](README-T6_mod_Tool.md) for installation, editor
+features, folder layout, script lanes, texture replacement, validation limits, and troubleshooting.
 
 ## Using the Mod Manager
 
