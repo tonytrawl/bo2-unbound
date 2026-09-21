@@ -3,9 +3,10 @@
 **Black Ops 2 Unbound HQ** is a Wii U homebrew application for installing and managing
 Black Ops II Unbound releases and local community mods.
 
-HQ detects the game region, language, and storage device automatically. It checks the
-installed Unbound version against the current GitHub release, downloads the correct universal
-package, verifies it, and installs its files into the registered Black Ops II update title.
+HQ detects the game region, language, and storage device automatically. At startup it uses one
+shared GitHub release feed to check both the HQ application and the installed Unbound content,
+then downloads, verifies, and installs whichever universal package is needed into the registered
+Black Ops II update title.
 
 **Project guides:** [Install and use Unbound HQ](#installing-hq) ·
 [Create mods with the Unbound T6 Mod Tool](README-T6_mod_Tool.md)
@@ -20,11 +21,23 @@ package, verifies it, and installs its files into the registered Black Ops II up
 
 ## Features
 
-- Checks for new Unbound releases every time HQ starts.
-- **What's New** page with up to date updates on the project.
-- Browses and manages mods through the Mod Manager.
+- Detects supported USA, European, and Japanese Black Ops II title IDs.
+- Finds the official game update on Wii U internal memory (MLC) or USB storage.
+- Detects the active language and routes localized files automatically.
+- Reads `update/content/update.txt` to identify the installed Unbound version.
+- Checks one shared GitHub feed for HQ application and Unbound content releases every time HQ starts.
+- Shows real download, verification, unpacking, and installation progress with estimated time
+  remaining.
+- Verifies every downloaded package using SHA-256 before installation.
+- Checks available SD-card and game-storage space before writing files.
+- Displays a remotely updated, rich-text **What's New** page with cached images.
+- Copies local mods from the SD card into the game's `content/mods` folder.
+- Displays each local mod's name, author, and description from `modload.txt`.
+- Browses and removes individually installed mod folders through the Mod Manager.
 - Works with the companion [Unbound T6 Mod Tool](README-T6_mod_Tool.md) for creating and
   validating loose mods on Windows.
+- Launches Black Ops II from HQ when a supported installed copy or inserted disc is found.
+- Keeps official AOC/DLC detection read-only; HQ does not create or modify an AOC title.
 
 The online **Workshop** is currently disabled and will be enabled in a future release. Local
 mods remain available through the Mod Manager.
@@ -35,7 +48,7 @@ mods remain available through the Mod Manager.
 - A legally owned Wii U copy of **Call of Duty: Black Ops II**
 - The newest official Black Ops II game update
 - An SD card accessible from Aroma
-- An Internet connection 
+- An Internet connection for HQ updates and What's New content
 - Enough free space on both the SD card and the storage device containing the game update
 
 ### Required official game version
@@ -55,7 +68,7 @@ download or replace Nintendo's official Black Ops II update.
 ### Using the SD-card package
 
 1. Open the repository's [Releases page](https://github.com/tonytrawl/bo2-unbound/releases).
-2. Download the release asset identified as **BO2-Unbound-HQ**.
+2. Download the release asset identified as the **HQ application** or **SD-card package**.
    Its filename should begin with `BO2-Unbound-HQ`, not `unbound-universal`.
 3. Extract the package directly to the root of the SD card.
 4. Confirm that the resulting file is located at:
@@ -66,21 +79,74 @@ download or replace Nintendo's official Black Ops II update.
 
 5. Insert the SD card, start the console with Aroma, and open **Black Ops 2 Unbound HQ**.
 
+### Installing a standalone WUHB
+
+If you received only `BO2-Unbound-HQ.wuhb`, create this directory and copy the file into it:
+
+```text
+sd:/wiiu/apps/BO2-Unbound-HQ/BO2-Unbound-HQ.wuhb
+```
+
+Only the `.wuhb` is required for a normal Aroma installation. Development `.elf` and `.rpx`
+files do not need to be copied to the SD card.
+
 > [!NOTE]
 > Files named `unbound-universal-<version>-full.zip` are content packages consumed
 > automatically by HQ. Users should not extract those packages onto the SD card manually.
 
 ## First run and automatic updates
 
-Every time HQ starts, it:
+Every time the self-updating HQ build starts, it:
 
 1. Initializes the network and available storage.
-2. Searches for the Black Ops II base game and official update.
-3. Determines whether you are on the newest update.
-4. Prompts before downloading or installing anything.
+2. Downloads `releases-chain-v2.txt` once and checks its backward-compatible `#HQ` application record.
+3. If a newer HQ revision is available, prompts to install the verified WUHB and then returns to the
+   Wii U Menu so the new build can be relaunched.
+4. Reuses that same downloaded feed for the `UNIVERSAL|FULL` and `UNIVERSAL|PATCH` content records.
+5. Searches for the Black Ops II base game and official update.
+6. Determines the game region, language, and whether the update is on internal memory or USB.
+7. Reads the currently installed Unbound version from `update/content/update.txt`, compares it with
+   the newest compatible release, and prompts before downloading or installing anything.
+
+The first self-updating release must be installed manually once. After that, newer HQ builds can
+replace the installed WUHB automatically while retaining the previous file as a recovery backup.
+
+If `update.txt` does not exist, HQ treats Unbound as not installed and offers the current full
+package. It downloads the package to the SD card, verifies the published SHA-256 checksum,
+checks free space, and then installs the files. The version marker is written only after every
+file has installed successfully.
 
 Do not power off the console, remove the SD card, disconnect USB storage, or close HQ during a
 download or installation.
+
+## Where Unbound is installed
+
+Current Unbound packages install through the official Black Ops II **update title**. Packages
+may contain only:
+
+```text
+update/code/
+update/content/
+```
+
+Localized files are staged under:
+
+```text
+update/content/@language/
+```
+
+HQ replaces `@language` with the language directory detected on the console. Current language
+routing supports:
+
+- English
+- French
+- Spanish
+- Italian
+- German
+- Japanese
+
+Files placed directly under `update/content` remain directly under the game's update-content
+folder. HQ does not create, replace, repair, or delete AOC/DLC metadata or XML files.
 
 ## Creating mods with the Unbound T6 Mod Tool
 
@@ -184,8 +250,8 @@ does not crash the application.
 
 ### `Release feed: Server returned HTTP 404`
 
-HQ could not find its update-only manifest. Check network connection. Releases may briefly cache a 404 after a new file
-is added if you are early to the download; wait a minute, and restart HQ.
+HQ could not find its shared `releases-chain-v2.txt` feed. Check the network connection. GitHub may
+briefly cache a 404 just after a new file is added; wait a minute, then restart HQ.
 
 ### HQ reports that Unbound is current, but you have not installed it
 
@@ -254,4 +320,6 @@ endorsed by, or sponsored by Activision, Treyarch, Nintendo, Pretendo Network, o
 subsidiaries.
 
 Call of Duty, Black Ops II, Wii U, and related names and assets belong to their respective owners.
-You are responsible for using legally obtained game software and content.
+You are responsible for using legally obtained game software and content. Do not distribute
+copyrighted game files, official DLC, encryption keys, tickets, or other protected material
+through this project. Use this software at your own risk.
