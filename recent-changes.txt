@@ -1,6 +1,6 @@
 ## Grind and Project KENNEL Have Arrived (now with Peacekeeper) 
 
-![Beware of Seagulls](https://raw.githubusercontent.com/tonytrawl/bo2-unbound/refs/heads/main/Grindbeta.png)
+![The Seagulls messed up the peacekeeper rollout not me...](https://raw.githubusercontent.com/tonytrawl/bo2-unbound/refs/heads/main/Grindbeta.png)
 
 ### Included in this release
 
