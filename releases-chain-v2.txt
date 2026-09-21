@@ -1,0 +1,4 @@
+# UNBOUND_RELEASE_CHAIN_V2
+# PACKAGE_KEY|KIND|FROM_VERSION|TO_VERSION|DOWNLOAD_URL|SHA256|COMPRESSED_BYTES
+UNIVERSAL|FULL|-|0.0.05|https://github.com/tonytrawl/bo2-unbound/releases/download/v0.0.05/unbound-universal-0.0.05-full.zip|4ec8e49c870d4776c13a1eb0858fd61dfd370e2197ddb1d6cf84c7609c145ccb|204936880
+UNIVERSAL|PATCH|0.0.05|0.0.05P1.0|https://github.com/tonytrawl/bo2-unbound/releases/download/v0.0.05P1.0/unbound-universal-0.0.05-to-0.0.05P1.0-patch.zip|502d46735ad7a2e6972b3aa2b855c7bec486625e3274424d22cdaee7a66a24bb|8067530
