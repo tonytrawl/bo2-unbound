@@ -3,6 +3,9 @@
 **Black Ops 2 Unbound HQ** is a Wii U homebrew application for installing and managing
 Black Ops II Unbound releases and local community mods.
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
+[![Buy me a Coffee](https://img.shields.io/badge/Support%20My%20Work-Buy%20me%20a%20coffee%20%E2%98%95-chocolate?style=plastic)](https://buymeacoffee.com/tonytrawl)
+
 HQ detects the game region, language, and storage device automatically. At startup it uses one
 shared GitHub release feed to check both the HQ application and the installed Unbound content,
 then downloads, verifies, and installs whichever universal package is needed into the registered
