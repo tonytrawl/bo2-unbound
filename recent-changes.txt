@@ -4,9 +4,9 @@
 
 ## Your matches have an encore
 
-**Theater Mode is here.** Built through deep RPL research, it lets you record supported hosted matches, return to the game's familiar Theater browser, and watch them back. Save edited clips, revisit your local film library, and remove recordings you no longer want. Multiplayer and Zombies films remain separate, so each mode shows the right recordings.
+**Theater Mode is here.** Record hosted matches, return to the game's familiar Theater browser, and watch them back. Save edited clips, revisit your local film library, and remove recordings you no longer want. Multiplayer and Zombies films remain separate, so each mode shows the right recordings.
 
-*Films are stored locally; this update does not add cloud sharing or video export.*
+*Films are stored locally on the SD card; this update does not add cloud sharing or video export.*
 
 ---
 
