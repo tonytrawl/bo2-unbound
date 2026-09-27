@@ -1,8 +1,9 @@
 # UNBOUND_RELEASE_CHAIN_V2
-# The #HQ directive is intentionally a comment so older HQ builds ignore it.
-#HQ|7|0.0.07-beta|https://github.com/tonytrawl/bo2-unbound/releases/download/hq-v0.0.07-beta/BO2-Unbound-HQ.wuhb|6bac396cdcc22dfbc9e1fdf2e35c434914f7430d1382e192ab290802ec067efa|10517244
-#PLUGIN|UNBOUND_MOD_LINK|1|0.2.0-beta|https://github.com/tonytrawl/bo2-unbound/releases/download/mod-link-v0.2.0-beta/BO2-Unbound-Mod-Link-v0.2.0-beta.zip|8405464a07dcac281da8b106ea652f0bf9c3942274ea9b09750bfcb7d94e0e4c|102560
-#PLUGIN_FILE|UNBOUND_MOD_LINK|wiiu/environments/aroma/plugins/BO2-Unbound-Redirector.wps|01a8ad8560d6f83e853450023ebe846c8b960f5136491cdbab4f1bb516fbaff5|103259
+# Special comment directives are ignored by older HQ builds.
+#HQ|15|0.0.15-beta|https://github.com/tonytrawl/bo2-unbound/releases/download/hq-v0.0.15-beta/BO2-Unbound-HQ.wuhb|afded7598595386cc366a1c222530d04ea7d8af1e6b7a7b08cff6c4b2b4b4ea7|12191476
+#PLUGIN|UNBOUND_MOD_LINK|2|0.2.1-beta|https://github.com/tonytrawl/bo2-unbound/releases/download/mod-link-v0.2.1-beta/BO2-Unbound-Mod-Link-v0.2.1-beta.zip|664e52661188f9df0b09d352ad04dbbd277d9e9b1d787db5a94a47f104ef3104|102274
+#PLUGIN_FILE|UNBOUND_MOD_LINK|wiiu/environments/aroma/plugins/BO2-Unbound-Redirector.wps|7a4b585864ea8c4accc778a18c4bc2d01c620b272431867ee24d02a40f171964|102969
 # PACKAGE_KEY|KIND|FROM_VERSION|TO_VERSION|DOWNLOAD_URL|SHA256|COMPRESSED_BYTES
 UNIVERSAL|FULL|-|0.0.05|https://github.com/tonytrawl/bo2-unbound/releases/download/v0.0.05/unbound-universal-0.0.05-full.zip|4ec8e49c870d4776c13a1eb0858fd61dfd370e2197ddb1d6cf84c7609c145ccb|204936880
 UNIVERSAL|PATCH|0.0.05|0.0.05P1.0|https://github.com/tonytrawl/bo2-unbound/releases/download/v0.0.05P1.0/unbound-universal-0.0.05-to-0.0.05P1.0-patch.zip|502d46735ad7a2e6972b3aa2b855c7bec486625e3274424d22cdaee7a66a24bb|8067530
+UNIVERSAL|PATCH|0.0.05|0.0.05P2.0|https://github.com/tonytrawl/bo2-unbound/releases/download/v0.0.05P2.0/unbound-universal-0.0.05-to-0.0.05P2.0-patch.zip|89aef0d099f1054f92b6cdce02db2adb391218531ceb5ec535c77f4c00ab3ecc|8045439
