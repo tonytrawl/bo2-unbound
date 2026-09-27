@@ -1,26 +1,37 @@
-## Grind and Project KENNEL Have Arrived (now with Peacekeeper) 
+# Black Ops 2 Unbound - Theater Mode Update
 
-![The Seagulls messed up the peacekeeper rollout not me...](https://raw.githubusercontent.com/tonytrawl/bo2-unbound/refs/heads/main/Grindbeta.png)
+![Now you can watch yourself get shit on from every angle](https://raw.githubusercontent.com/tonytrawl/bo2-unbound/refs/heads/main/banners/Theaturemode.png)
 
-### Included in this release
+## Your matches have an encore
 
-- **Grind MP map** — Take the fight to the legendary skate park.
-- **Project KENNEL** — Survive a containment zone overrun by weaponized attack dogs.
-- **Mod loader** — Load and manage mods both in the HQ and ingame.
-- **FOV slider** — Adjust your field of view to fit the way you play.
-- **Sample Mods** — Some Mods to get you started including a port of **Chaos Mod by JF**
----
+**Theater Mode is here.** Built through deep RPL research, it lets you record supported hosted matches, return to the game's familiar Theater browser, and watch them back. Save edited clips, revisit your local film library, and remove recordings you no longer want. Multiplayer and Zombies films remain separate, so each mode shows the right recordings.
 
-## Project KENNEL
-
-**Project KENNEL has lost control.** Across the quarantine zone, military attack dogs obey a corrupted command: *hunt until nothing remains.* Their handlers are gone, their safeguards have failed, and the kennels are still releasing them.
-
-Fight the hordes with up to **four soldiers**. Scavenge supplies, upgrade your weapons, and keep your squad alive against relentless packs, burning explosives, and electrically charged predators.
-
-*Hold out for extraction before the containment strike erases every trace of the program—including you.*
+*Films are stored locally; this update does not add cloud sharing or video export.*
 
 ---
 
-### Online Ready
+## More game, less overhead
 
-**Everything included in this beta supports online play through Protarium.**
+![Treyarch didn't try, we did](https://raw.githubusercontent.com/tonytrawl/bo2-unbound/refs/heads/main/banners/Graph%20optimization.png)
+
+The new game-code optimizations reduce work in the busiest parts of the engine. In project comparison tests, the updated build measured approximately:
+
+- **11% higher frame rate**
+- **12% lower overall CPU usage**
+- **28% lower usage on the busiest CPU core**
+
+These are test results, not a fixed boost for every map or match. Your results will vary with the scene, player count, and active mods.
+
+## Better mixed lobbies
+
+Host- and client-side **Lua/LUI compatibility fixes** address the different-Lua-version rejection that could keep players without Unbound out of Unbound-hosted lobbies. Friends can join on compatible maps without installing Unbound themselves. Custom maps and other gameplay assets still require the matching content on each player's console.
+
+---
+
+## The Plugin Workshop
+
+**Unbound Mod Link** loads mods directly from SD:/unbound/content/mods into the game's mods view. No routine copy to internal storage or USB is needed. Open **Mod Manager** and press **Minus** to turn runtime linking on or off. It uses Aroma's existing ContentRedirectionModule and does not replace that shared module. Mod Link updates through HQ's verified release feed; it does not download or poll while you play.
+
+**GamePad Mic Redirect** is an optional, experimental plugin that lets supported games use the Wii U GamePad's built-in microphone where headset voice input is normally expected. It includes **mute** and **push-to-talk** controls. Install it from Workshop, then enable its optional Auto-Update there if you want HQ to check the developer's verified release at startup. Auto-Update starts **OFF**.
+
+Workshop opens from saved listings right away. Open a plugin for its current release and install status, or press **X** to refresh the listing. HQ can update itself and install Unbound content patches without making returning players download the full package again.
