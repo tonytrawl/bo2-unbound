@@ -1,0 +1,4 @@
+# UNBOUND_PLUGIN_CATALOG_V1
+# TYPE|PLUGIN_KEY|NAME|CREATOR|DESCRIPTION|RELEASE_FEED_URL|HOMEPAGE_URL|MANAGED_PATHS
+PLUGIN|UNBOUND_MOD_LINK|Unbound Mod Link|Black Ops 2 Unbound|Loads manifested mods directly from sd:/unbound/content/mods without copying them into the installed game.|https://raw.githubusercontent.com/tonytrawl/bo2-unbound/main/releases-chain-v2.txt|https://github.com/tonytrawl/bo2-unbound|wiiu/environments/aroma/plugins/BO2-Unbound-Redirector.wps
+PLUGIN|GAMEPAD_MIC_REDIRECT|GamePad Mic Redirect|Tony (tonytrawl)|Redirects the Wii U GamePad built-in microphone for headset-only voice input. Experimental; v0.4.0 adds mute and push-to-talk controls.|https://raw.githubusercontent.com/tonytrawl/gamepad_mic_redirect/main/release.txt|https://github.com/tonytrawl/gamepad_mic_redirect|wiiu/environments/aroma/plugins/GamePadMicRedirect.wps
