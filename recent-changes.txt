@@ -24,7 +24,7 @@ These are test results, not a fixed boost for every map or match. Your results w
 
 ## Better mixed lobbies
 
-Host- and client-side **Lua/LUI compatibility fixes** address the different-Lua-version rejection that could keep players without Unbound out of Unbound-hosted lobbies. Friends can join on compatible maps without installing Unbound themselves. Custom maps and other gameplay assets still require the matching content on each player's console.
+Host and client-side **Lua/LUI compatibility fixes** address the different Lua version rejection that could keep players without Unbound out of Unbound-hosted lobbies. Friends can join on compatible maps without installing Unbound themselves. Custom maps and other gameplay assets still require the matching content on each player's console.
 
 ---
 
