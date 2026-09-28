@@ -1,6 +1,6 @@
 # Black Ops 2 Unbound - Theater Mode Update
 
-![Now you can watch yourself get shit on from every angle](https://raw.githubusercontent.com/tonytrawl/bo2-unbound/refs/heads/main/banners/Theaturemode.png)
+![Shout out to Speedy, Peacekeeper is BACK](https://raw.githubusercontent.com/tonytrawl/bo2-unbound/refs/heads/main/banners/Theaturemode.png)
 
 ## Your matches have an encore
 
