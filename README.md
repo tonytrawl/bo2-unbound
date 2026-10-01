@@ -3,8 +3,8 @@
 **Black Ops 2 Unbound HQ** is a Wii U homebrew app for keeping Black Ops II Unbound current, managing local mods, and installing curated Aroma plugins.
 
 
-[![Latest release](https://img.shields.io/github/v/release/tonytrawl/WiiU-T6-Studio?style=for-the-badge&logo=github&logoColor=17130a&label=RELEASE&labelColor=17130a&color=e8a33d)](https://github.com/tonytrawl/bo2-unbound/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/tonytrawl/WiiU-T6-Studio/total?style=for-the-badge&label=DOWNLOADS&labelColor=17130a&color=4d8fd6)](https://github.com/tonytrawl/bo2-unbound/releases)
+[![Latest release](https://img.shields.io/github/v/release/tonytrawl/bo2-unbound?style=for-the-badge&logo=github&logoColor=17130a&label=RELEASE&labelColor=17130a&color=e8a33d)](https://github.com/tonytrawl/bo2-unbound/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/tonytrawl/bo2-unbound/total?style=for-the-badge&label=DOWNLOADS&labelColor=17130a&color=4d8fd6)](https://github.com/tonytrawl/bo2-unbound/releases)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 [![Buy me a Coffee](https://img.shields.io/badge/Support%20My%20Work-Buy%20me%20a%20coffee%20%E2%98%95-chocolate?style=plastic)](https://buymeacoffee.com/tonytrawl)
 
