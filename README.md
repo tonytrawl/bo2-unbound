@@ -1,21 +1,34 @@
+<div align="center">
+
 # Black Ops 2 Unbound HQ
 
 **Black Ops 2 Unbound HQ** is a Wii U homebrew app for keeping Black Ops II Unbound current, managing local mods, and installing curated Aroma plugins.
 
+<br>
 
 [![Latest release](https://img.shields.io/github/v/release/tonytrawl/bo2-unbound?style=for-the-badge&logo=github&logoColor=17130a&label=RELEASE&labelColor=17130a&color=e8a33d)](https://github.com/tonytrawl/bo2-unbound/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/tonytrawl/bo2-unbound/total?style=for-the-badge&label=DOWNLOADS&labelColor=17130a&color=4d8fd6)](https://github.com/tonytrawl/bo2-unbound/releases)
 [![Buy me a coffee](https://img.shields.io/badge/SUPPORT%20MY%20WORK-BUY%20ME%20A%20COFFEE%20%E2%98%95-e8a33d?style=for-the-badge&labelColor=17130a&logo=buymeacoffee&logoColor=17130a)](https://buymeacoffee.com/tonytrawl)
 
+</div>
+
+---
+
 HQ finds your supported Black Ops II game and official update, detects its region, language, and internal/USB storage location, and offers the right Unbound files. It can update the HQ app itself, apply full or patch game-content releases, launch the game, and manage mods from one place.
 
+<div align="center">
+
 **Guides:** [Install HQ](#installing-hq) · [Use local mods](#local-mods-and-mod-manager) · [Create mods with the Unbound T6 Mod Tool](README-T6_mod_Tool.md)
+
+</div>
 
 > [!IMPORTANT]
 > Install the newest **official** Black Ops II update first: **v128 for USA and Europe**, or **v96 for Japan**. HQ does not supply the official game update or DLC.
 
 > [!WARNING]
 > Unbound is still in beta and changes files in your installed Black Ops II update. Back up anything you cannot easily replace, and do not interrupt an installation.
+
+---
 
 ## New in the next Unbound content package
 
@@ -29,6 +42,8 @@ Project comparison tests measured approximately **11% higher FPS**, **12% lower 
 
 Host and client side **Lua/LUI compatibility fixes** address the different Lua version rejection that could stop a player without Unbound from joining an Unbound-hosted lobby. Mixed lobbies still need compatible maps and gameplay assets on every player's console; this fix does not supply missing custom content.
 
+---
+
 ## What HQ can do
 
 - Detect supported USA, European, and Japanese Black Ops II titles, the selected language, and whether the official update is on internal storage or USB.
@@ -40,6 +55,8 @@ HQ installs Unbound game content into the registered **update title**, under `up
 
 The Workshop currently offers Aroma plugins. Community mod uploads, ratings, and comments are not enabled yet.
 
+---
+
 ## Requirements
 
 - A Wii U running the [Aroma environment](https://aroma.foryour.cafe/) and a legally owned Wii U copy of **Call of Duty: Black Ops II**.
@@ -48,6 +65,8 @@ The Workshop currently offers Aroma plugins. Community mod uploads, ratings, and
 - Aroma's existing `ContentRedirectionModule.wms` if you want to load mods from SD with Unbound Mod Link. HQ does not replace that shared module.
 
 Install the official update from a legitimate source and launch the unmodified game once to confirm it works before installing Unbound.
+
+---
 
 ## Installing HQ
 
@@ -67,6 +86,8 @@ On each run HQ checks the shared `releases-chain-v2.txt` feed, locates the game 
 
 Do not power off, remove the SD card, disconnect USB storage, or exit HQ while it is downloading or installing.
 
+---
+
 ## Plugin Workshop
 
 Open **Workshop** from HQ to see the curated plugin listings. The page opens immediately from saved listings, or HQ's included listings if none have been saved. Press **X** (**1** on a Wii Remote) to refresh the catalog. Open a plugin's page to check its current publisher release and the files installed on your SD card. A saved listing is useful offline, but does not prove that its release is current.
@@ -85,6 +106,8 @@ Its **Auto-Update** setting starts **OFF**. When OFF, HQ does not contact the mi
 
 No Workshop plugin package writes into the Black Ops II game-update folders.
 
+---
+
 ## Local mods and Mod Manager
 
 Put each local mod in its own folder at `sd:/unbound/content/mods/<mod-folder>/`, with a `modload.txt` file. For example:
@@ -101,6 +124,8 @@ Mod Manager shows SD and console copies in one list, with each mod's name, autho
 
 Manual SD-to-console and console-to-SD copying remains available for compatibility, but Mod Link is the recommended everyday setup. Follow the on-screen confirmations carefully when copying or deleting. A console-to-SD move verifies the new copy before offering to remove the original. Deleting a console copy does not delete the SD copy.
 
+---
+
 ## Controls
 
 Touch input is intentionally disabled. The Wii U GamePad, Wii U Pro Controller, Classic Controller/Classic Controller Pro, and Wii Remote can navigate HQ. The footer shows what each button does on the current screen.
@@ -114,6 +139,8 @@ Touch input is intentionally disabled. The Wii U GamePad, Wii U Pro Controller, 
 | X, or 1 on Wii Remote | Refresh Workshop or manage/delete a selected mod when shown in the footer |
 | Plus | Exit HQ |
 
+---
+
 ## Troubleshooting
 
 - **Official update not found:** Check for v128 (USA/Europe) or v96 (Japan), confirm the game and update match regions, and connect USB storage before starting HQ if the update is on USB.
@@ -125,6 +152,8 @@ Touch input is intentionally disabled. The Wii U GamePad, Wii U Pro Controller, 
 - **Mod Link does not load an SD mod:** Check that the mod is under `sd:/unbound/content/mods/<mod-folder>/`, has a readable `modload.txt`, Mod Link is ON, and Aroma's content-redirection module is present. Restart the game after changing the switch; restart the console/Aroma after a plugin install or update.
 
 For a bug report, include the HQ version and revision, game region, official update version, internal/USB location, language, and exact on-screen message.
+
+---
 
 ## Legal notice
 
