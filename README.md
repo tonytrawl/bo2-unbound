@@ -80,7 +80,7 @@ Install the official update from a legitimate source and launch the unmodified g
    If you downloaded an SD-card package, extract it to the SD-card root and confirm the WUHB ends up at that same path.
 3. Insert the SD card, start the Wii U in Aroma, and open **Black Ops 2 Unbound HQ**.
 
-Only the `.wuhb` is required for normal Aroma use; development `.elf` and `.rpx` files do not belong on the SD card. The first self-updating HQ build must be installed manually. Later HQ revisions can update the app for you. After HQ updates itself, relaunch it from the Wii U Menu. After installing or updating an Aroma plugin, fully restart the console/Aroma environment so its new code loads.
+The first self-updating HQ build must be installed manually. Later HQ revisions can update the app for you. After HQ updates itself, relaunch it from the Wii U Menu. After installing or updating an Aroma plugin, fully restart the console/Aroma environment so its new code loads.
 
 On each run HQ checks the shared `releases-chain-v2.txt` feed, locates the game and official update, and compares `update/content/update.txt` with the available Unbound releases. It asks before downloading game content. A missing version marker means a first install; HQ writes the marker only after a package finishes successfully. Do not manually create or edit `update.txt` to bypass the installer.
 
