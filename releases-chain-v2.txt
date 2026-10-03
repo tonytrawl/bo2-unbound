@@ -1,6 +1,6 @@
 # UNBOUND_RELEASE_CHAIN_V2
 # Special comment directives are ignored by older HQ builds.
-#HQ|15|0.0.15-beta|https://github.com/tonytrawl/bo2-unbound/releases/download/hq-v0.0.15-beta/BO2-Unbound-HQ.wuhb|afded7598595386cc366a1c222530d04ea7d8af1e6b7a7b08cff6c4b2b4b4ea7|12191476
+#HQ|19|0.0.19-beta|https://github.com/tonytrawl/bo2-unbound/releases/download/hq-v0.0.19-beta/BO2-Unbound-HQ.wuhb|abbca3911add270e4a648ee1ff9689f18d439d97239e1b7233d649908d9df89c|12273684
 #PLUGIN|UNBOUND_MOD_LINK|2|0.2.1-beta|https://github.com/tonytrawl/bo2-unbound/releases/download/mod-link-v0.2.1-beta/BO2-Unbound-Mod-Link-v0.2.1-beta.zip|664e52661188f9df0b09d352ad04dbbd277d9e9b1d787db5a94a47f104ef3104|102274
 #PLUGIN_FILE|UNBOUND_MOD_LINK|wiiu/environments/aroma/plugins/BO2-Unbound-Redirector.wps|7a4b585864ea8c4accc778a18c4bc2d01c620b272431867ee24d02a40f171964|102969
 # PACKAGE_KEY|KIND|FROM_VERSION|TO_VERSION|DOWNLOAD_URL|SHA256|COMPRESSED_BYTES
