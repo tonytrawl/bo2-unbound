@@ -4,7 +4,4 @@
 #PLUGIN|UNBOUND_MOD_LINK|2|0.2.1-beta|https://github.com/tonytrawl/bo2-unbound/releases/download/mod-link-v0.2.1-beta/BO2-Unbound-Mod-Link-v0.2.1-beta.zip|664e52661188f9df0b09d352ad04dbbd277d9e9b1d787db5a94a47f104ef3104|102274
 #PLUGIN_FILE|UNBOUND_MOD_LINK|wiiu/environments/aroma/plugins/BO2-Unbound-Redirector.wps|7a4b585864ea8c4accc778a18c4bc2d01c620b272431867ee24d02a40f171964|102969
 # PACKAGE_KEY|KIND|FROM_VERSION|TO_VERSION|DOWNLOAD_URL|SHA256|COMPRESSED_BYTES
-UNIVERSAL|FULL|-|0.0.05|https://github.com/tonytrawl/bo2-unbound/releases/download/v0.0.05/unbound-universal-0.0.05-full.zip|4ec8e49c870d4776c13a1eb0858fd61dfd370e2197ddb1d6cf84c7609c145ccb|204936880
-UNIVERSAL|PATCH|0.0.05|0.0.05P1.0|https://github.com/tonytrawl/bo2-unbound/releases/download/v0.0.05P1.0/unbound-universal-0.0.05-to-0.0.05P1.0-patch.zip|502d46735ad7a2e6972b3aa2b855c7bec486625e3274424d22cdaee7a66a24bb|8067530
-UNIVERSAL|PATCH|0.0.05|0.0.05P2.0|https://github.com/tonytrawl/bo2-unbound/releases/download/v0.0.05P2.0/unbound-universal-0.0.05-to-0.0.05P2.0-patch.zip|89aef0d099f1054f92b6cdce02db2adb391218531ceb5ec535c77f4c00ab3ecc|8045439
-UNIVERSAL|PATCH|0.0.05|0.0.05P2.1|https://github.com/tonytrawl/bo2-unbound/releases/download/v0.0.05P2.1/unbound-universal-0.0.05-to-0.0.05P2.1-patch.zip|af837b7b8a95b90e49c0a506f9c93561f624c34c99cc74a7c847e0e69a0689f3|8057077
+UNIVERSAL|FULL|-|0.0.90|https://github.com/tonytrawl/bo2-unbound/releases/download/v0.0.90/unbound-universal-0.0.90-full.zip|1ce320546de80d060546a6b252f2d5f9544a7894f1f78755fa9704d1926fb411|732452301
