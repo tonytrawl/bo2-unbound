@@ -1,37 +1,76 @@
-# Black Ops 2 Unbound - Theater Mode Update
+# BETA 1.5: NUKETOWN IS HERE
 
-![Shout out to Speedy, Peacekeeper is BACK](https://raw.githubusercontent.com/tonytrawl/bo2-unbound/refs/heads/main/banners/Theaturemode.png)
+![Nuketown Zombies and PROJECT KENNEL 2.0 - Unbound Beta 1.5](https://raw.githubusercontent.com/tonytrawl/bo2-unbound/main/banners/1.5banner.png)
 
-## Your matches have an encore
-
-**Theater Mode is here.** Record hosted matches, return to the game's familiar Theater browser, and watch them back. Save edited clips, revisit your local film library, and remove recordings you no longer want. Multiplayer and Zombies films remain separate, so each mode shows the right recordings.
-
-*Films are stored locally on the SD card; this update does not add cloud sharing or video export.*
+**Nuketown Zombies** joins Unbound. Explore the **PROJECT KENNEL** Easter egg, try the updated in-game Mod Loader, and check out the new PC Mod Tool.
 
 ---
 
-## More game, less overhead
+## Nuketown Zombies
 
-![Treyarch didn't try, we did](https://raw.githubusercontent.com/tonytrawl/bo2-unbound/refs/heads/main/banners/Graph%20optimization.png)
+Bring the fight to Nuketown in Zombies. Explore the map, take on the undead, and see how long you can survive.
 
-The new game-code optimizations reduce work in the busiest parts of the engine. In project comparison tests, the updated build measured approximately:
+- Play local split-screen Zombies with **up to four players**.
+- Enable the **Wunderwaffe DG-2** and **Thundergun** in the Mystery Box with the **Unbound Weapons** lobby toggle.
+- Find the **Ray Gun Mark II** in Mystery Boxes across all supported Zombies maps.
 
-- **11% higher frame rate**
-- **12% lower overall CPU usage**
-- **28% lower usage on the busiest CPU core**
+### Known issues
 
-These are test results, not a fixed boost for every map or match. Your results will vary with the scene, player count, and active mods.
-
-## Better mixed lobbies
-
-Host and client-side **Lua/LUI compatibility fixes** address the different Lua version rejection that could keep players without Unbound out of Unbound-hosted lobbies. Friends can join on compatible maps without installing Unbound themselves. Custom maps and other gameplay assets still require the matching content on each player's console.
+**Please read before playing:** Some textures and environmental effects may look incorrect. Physics interactions can cause crashes, including when using the **Thundergun**.
 
 ---
 
-## The Plugin Workshop
+## PROJECT KENNEL 2.0
 
-**Unbound Mod Link** loads mods directly from SD:/unbound/content/mods into the game's mods view. No routine copy to internal storage or USB is needed. Open **Mod Manager** and press **Minus** to turn runtime linking on or off. It uses Aroma's existing ContentRedirectionModule and does not replace that shared module. Mod Link updates through HQ's verified release feed; it does not download or poll while you play.
+*The gates are open. The hunt continues.*
 
-**GamePad Mic Redirect** is an optional, experimental plugin that lets supported games use the Wii U GamePad's built-in microphone where headset voice input is normally expected. It includes **mute** and **push-to-talk** controls. Install it from Workshop, then enable its optional Auto-Update there if you want HQ to check the developer's verified release at startup. Auto-Update starts **OFF**.
+KENNEL gets new weapons, characters, animations, power-ups, Easter eggs, and gameplay improvements.
 
-Workshop opens from saved listings right away. Open a plugin for its current release and install status, or press **X** to refresh the listing. HQ can update itself and install Unbound content patches without making returning players download the full package again.
+- **Ray Gun Mark II** added to the Mystery Cache, with an upgraded Pack-a-Punch version.
+- **CDC survivor model**, perk-drinking animations, and an authentic Pack-a-Punch machine.
+- Original **Max Ammo** and **Double Points** models, effects, and announcer calls. Power-up benefits are shared with the squad.
+- More dog entrances and behaviors, custom music, refined lighting, an updated HUD, and improved extraction presentation.
+- Fixes and polish for weapons, vendors, revives, scoring, and more.
+
+### The KENNEL Easter egg
+
+Listen closely for the **four glowing radios** hidden around the map. Find them all to uncover the KENNEL story, brought to life with **voice acting from the Unbound team**.
+
+Complete the hunt to unlock a **surprise weapon** and an **Easter Egg song**.
+
+*Available on every PROJECT KENNEL map. The radios are waiting. Happy hunting!*
+
+---
+
+## Mod Loader Update
+
+Modding gets easier to manage, with performance improvements and a clearer in-game workflow.
+
+- Switch mods or unload the active mod from the **Mods** menu.
+- See which mod is currently loaded.
+- Access the menu from supported Multiplayer and Zombies lobbies.
+- Get clearer errors when a mod cannot load.
+- Keep your mod selection when returning from a match.
+- Record and play back **Theater footage locally from an SD card**.
+
+---
+
+## Unbound T6 Mod Tool: Public 2.0
+
+The separate **PC modding tool** has a redesigned workspace for creating, editing, and converting Black Ops II Wii U mods.
+
+- Optional syntax checks for **GSC, CSC, and Lua**.
+- Convert supported files from unpacked PC mods, with progress and cancellation.
+- Safer batch conversion, filename-collision checks, and prompts before replacing files.
+- Save, discard, or cancel before leaving unsaved edits.
+- Remembered preferences, improved help, and a clearer workflow.
+
+**Conversion limits:** PC conversion does not resolve PC-only functions or missing dependencies. Converted mods still need in-game testing. The public edition supports **loose mods only** and does **not include FF building**.
+
+*The PC tool is a separate download from the Unbound GitHub repository. HQ does not install it on your console.*
+
+---
+
+### Install Beta 1.5
+
+Return to **Install / Update** in HQ to download and install the full **0.0.90** beta. New and existing players can install this release without downloading the older patches first.
