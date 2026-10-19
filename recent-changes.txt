@@ -1,22 +1,56 @@
-# BETA 1.5: NUKETOWN IS HERE
+# BETA 2: NUKETOWN, MIRAGE & MORE
 
-![Nuketown Zombies and PROJECT KENNEL 2.0 - Unbound Beta 1.5](https://raw.githubusercontent.com/tonytrawl/bo2-unbound/main/banners/1.5banner.png)
+![Black Ops II Unbound - Beta 2](https://raw.githubusercontent.com/tonytrawl/bo2-unbound/main/banners/beta2.png)
 
-**Nuketown Zombies** joins Unbound. Explore the **PROJECT KENNEL** Easter egg, try the updated in-game Mod Loader, and check out the new PC Mod Tool.
+Beta 2 brings **Nuketown Zombies** and **Mirage Multiplayer** to Unbound, alongside a **beta Server Browser** and **native keyboard and mouse support**.
+
+**Game-content release: 0.1.0.** Open **Install / Update** in HQ to get the full release.
 
 ---
 
 ## Nuketown Zombies
 
-Bring the fight to Nuketown in Zombies. Explore the map, take on the undead, and see how long you can survive.
+Fight to survive on Nuketown in Zombies. The map is available for testing, with **up to four-player local split-screen**.
 
-- Play local split-screen Zombies with **up to four players**.
-- Enable the **Wunderwaffe DG-2** and **Thundergun** in the Mystery Box with the **Unbound Weapons** lobby toggle.
-- Find the **Ray Gun Mark II** in Mystery Boxes across all supported Zombies maps.
+- Enable the **Unbound Weapons** lobby toggle to add the **Wunderwaffe DG-2** and **Thundergun** to the Mystery Box.
+- The **Ray Gun Mark II** is also available in the Mystery Box on all Zombies maps.
 
-### Known issues
+### Known issue: explosion crashes
 
-**Please read before playing:** Some textures and environmental effects may look incorrect. Physics interactions can cause crashes, including when using the **Thundergun**.
+Some explosions can still cause crashes due to physics interactions. A Nuketown fix is planned as a **patch next week**.
+
+Once available, the patch is expected to take approximately **3-5 minutes to download and install**, depending on your connection and storage. You will **not need another huge full download** for that fix.
+
+---
+
+## Mirage & Grind - Multiplayer
+
+**Mirage** joins the Multiplayer map lineup. **Grind has been fixed** and no longer has the previously reported issues.
+
+---
+
+## Server Browser - Beta
+
+Browse available **Public Match playlists** from the online lobby. **Find Match** remains available if you prefer the usual matchmaking flow.
+
+You can also **host custom server matches** for others to find through Public Match search or the Server Browser.
+
+### Known issue: failed joins
+
+The Server Browser is in **beta**. Rarely, joining a match may show **"Match unjoinable"** or freeze your console if the join fails. A failed join does **not mean your Unbound installation is damaged**.
+
+---
+
+## Native Keyboard & Mouse
+
+Use a **USB keyboard and mouse for player one**, including mouse aiming, firing, movement, and gameplay actions.
+
+- Use the **mouse cursor in TV menus**.
+- Adjust your settings under **Options > Keyboard & Mouse**.
+
+## Developer Console
+
+Press **~ (tilde)** while using a keyboard to open the console. **Keyboard text entry** and **Backspace** are supported.
 
 ---
 
@@ -24,53 +58,37 @@ Bring the fight to Nuketown in Zombies. Explore the map, take on the undead, and
 
 *The gates are open. The hunt continues.*
 
-KENNEL gets new weapons, characters, animations, power-ups, Easter eggs, and gameplay improvements.
+New weapons, characters, animations, power-ups, music, and gameplay improvements arrive in this update.
 
-- **Ray Gun Mark II** added to the Mystery Cache, with an upgraded Pack-a-Punch version.
-- **CDC survivor model**, perk-drinking animations, and an authentic Pack-a-Punch machine.
-- Original **Max Ammo** and **Double Points** models, effects, and announcer calls. Power-up benefits are shared with the squad.
-- More dog entrances and behaviors, custom music, refined lighting, an updated HUD, and improved extraction presentation.
-- Fixes and polish for weapons, vendors, revives, scoring, and more.
+- The **Ray Gun Mark II** joins the Mystery Cache, with an upgraded **Pack-a-Punch** version.
+- Power-ups use their **original models and announcer calls**.
+- Power-up benefits are **shared with the squad**.
 
-### The KENNEL Easter egg
+### Easter Egg - all maps
 
-Listen closely for the **four glowing radios** hidden around the map. Find them all to uncover the KENNEL story, brought to life with **voice acting from the Unbound team**.
+Find the **four glowing radios** on any map to uncover the KENNEL story, featuring **voice acting from the Unbound team**.
 
 Complete the hunt to unlock a **surprise weapon** and an **Easter Egg song**.
 
-*Available on every PROJECT KENNEL map. The radios are waiting. Happy hunting!*
+*The radios are waiting. Happy hunting!*
 
 ---
 
-## Mod Loader Update
+## Unbound Mod Loader
 
-Modding gets easier to manage, with performance improvements and a clearer in-game workflow.
-
-- Switch mods or unload the active mod from the **Mods** menu.
-- See which mod is currently loaded.
-- Access the menu from supported Multiplayer and Zombies lobbies.
-- Get clearer errors when a mod cannot load.
-- Keep your mod selection when returning from a match.
+- Switch mods more easily **from the in-game menu**.
+- See **which mod is currently loaded**.
+- Get **clearer loading errors** when something goes wrong.
 - Record and play back **Theater footage locally from an SD card**.
 
----
+## Unbound T6 Mod Tool - Public 2.0
 
-## Unbound T6 Mod Tool: Public 2.0
+The separate **PC Mod Tool** adds a redesigned workspace, optional **GSC, CSC, and Lua syntax checks**, and improved **PC mod conversion and file handling**.
 
-The separate **PC modding tool** has a redesigned workspace for creating, editing, and converting Black Ops II Wii U mods.
-
-- Optional syntax checks for **GSC, CSC, and Lua**.
-- Convert supported files from unpacked PC mods, with progress and cancellation.
-- Safer batch conversion, filename-collision checks, and prompts before replacing files.
-- Save, discard, or cancel before leaving unsaved edits.
-- Remembered preferences, improved help, and a clearer workflow.
-
-**Conversion limits:** PC conversion does not resolve PC-only functions or missing dependencies. Converted mods still need in-game testing. The public edition supports **loose mods only** and does **not include FF building**.
-
-*The PC tool is a separate download from the Unbound GitHub repository. HQ does not install it on your console.*
+*The PC Mod Tool is a separate download from the Unbound GitHub repository. HQ does not install it on your console.*
 
 ---
 
-### Install Beta 1.5
+### Install Beta 2
 
-Return to **Install / Update** in HQ to download and install the full **0.0.90** beta. New and existing players can install this release without downloading the older patches first.
+Return to **Install / Update** in HQ to download **0.1.0**. This is a **full release**, so new and existing players can install it directly without downloading the older releases first.
