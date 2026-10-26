@@ -4,4 +4,4 @@
 #PLUGIN|UNBOUND_MOD_LINK|3|0.2.2-beta|https://github.com/tonytrawl/bo2-unbound/releases/download/mod-link-v0.2.2-beta/BO2-Unbound-Mod-Link-v0.2.2-beta.zip|77f862a501e6bba4887b5017c0cf21d5fbff02aac2333290851c34efefc0cde7|98539
 #PLUGIN_FILE|UNBOUND_MOD_LINK|wiiu/environments/aroma/plugins/BO2-Unbound-Redirector.wps|04f6f61684ac332496d05c9c66204bc0158b48d7d6c16881be968a06f95eb180|99396
 # PACKAGE_KEY|KIND|FROM_VERSION|TO_VERSION|DOWNLOAD_URL|SHA256|COMPRESSED_BYTES
-UNIVERSAL|FULL|-|0.1.0|https://github.com/tonytrawl/bo2-unbound/releases/download/v0.1.0/unbound-universal-0.1.0-full.zip|17b8cb2d677a2d4f1975c1c73648ffd6414ac331d895e8a64fcfbd5b03ae209e|894803684
+UNIVERSAL|FULL|-|0.2.0|https://github.com/tonytrawl/bo2-unbound/releases/download/v0.2.0/unbound-universal-0.2.0-full.zip|e51bfb83ccc5b805f8a146917353f85acdaed5df271337a718b7c2808e5aa207|1257582
