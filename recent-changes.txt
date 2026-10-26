@@ -1,5 +1,5 @@
 # BETA 3: DIE RISE IS HERE!
-![Black Ops II Unbound - Beta 3](https://github.com/tonytrawl/bo2-unbound/blob/main/banners/beta3.png)
+![Black Ops II Unbound - Beta 3](https://raw.githubusercontent.com/tonytrawl/bo2-unbound/refs/heads/main/banners/beta3.png)
 
 Beta 3 has officially arrived, bringing **Die Rise** to Unbound
 
