@@ -30,20 +30,6 @@ HQ finds your supported Black Ops II game and official update, detects its regio
 
 ---
 
-## New in the next Unbound content package
-
-### Theater Mode
-
-Local recording and playback is back into the game's familiar **Theater → Select Film** flow. Record supported hosted matches, browse and replay completed films, save edited clips, and remove individual recordings. Multiplayer and Zombies films stay separated. This is a local film library, not cloud sharing or video export.
-
-### Performance and mixed lobbies
-
-Project comparison tests measured approximately **11% higher FPS**, **12% lower overall CPU usage**, and **28% lower usage on the busiest CPU core** with the new game-code optimizations. These are approximate measured results, not a guaranteed improvement in every map, mode, or console setup.
-
-Host and client side **Lua/LUI compatibility fixes** address the different Lua version rejection that could stop a player without Unbound from joining an Unbound-hosted lobby. Mixed lobbies still need compatible maps and gameplay assets on every player's console; this fix does not supply missing custom content.
-
----
-
 ## What HQ can do
 
 - Detect supported USA, European, and Japanese Black Ops II titles, the selected language, and whether the official update is on internal storage or USB.
@@ -92,12 +78,6 @@ Do not power off, remove the SD card, disconnect USB storage, or exit HQ while i
 
 Open **Workshop** from HQ to see the curated plugin listings. The page opens immediately from saved listings, or HQ's included listings if none have been saved. Press **X** (**1** on a Wii Remote) to refresh the catalog. Open a plugin's page to check its current publisher release and the files installed on your SD card. A saved listing is useful offline, but does not prove that its release is current.
 
-### Unbound Mod Link
-
-Unbound Mod Link lets Black Ops II load manifested mods directly from `sd:/unbound/content/mods` at runtime. You can keep mod folders on the SD card instead of repeatedly copying them to the game's internal or USB storage. It overlays matching files rather than replacing the entire game content folder. The switch in Mod Manager controls whether linking is active; restart the game after changing it.
-
-HQ automatically checks for verified Mod Link plugin updates using the same shared feed it already downloads for HQ and game content. The runtime plugin itself makes **no** network requests and does not check for game-content updates while you play. Its package contains only the Unbound plugin; it does not overwrite Aroma's shared content-redirection module. If notifications are available, it can briefly show when linking succeeds.
-
 ### GamePad Mic Redirect
 
 GamePad Mic Redirect is an optional, experimental plugin that routes the Wii U GamePad's built-in microphone to compatible games that normally expect headset voice input. Its current release includes **mute** and **push-to-talk** controls. Read its Workshop page and [publisher notes](https://github.com/tonytrawl/gamepad_mic_redirect) before installing.
@@ -120,15 +100,12 @@ author=Example Author
 
 The [Unbound T6 Mod Tool guide](README-T6_mod_Tool.md) explains how to create, edit, and validate loader-ready mods on Windows. Copy the finished mod folder to the SD path above. HQ can also offer to migrate older `sd:/unbound/mods` or `sd:/unbound/mod` folders; it does not silently overwrite a conflicting folder name.
 
-Mod Manager shows SD and console copies in one list, with each mod's name, author, and description. Press **Minus** there to toggle Unbound Mod Link. The ON/OFF bubble shows its status, not an extra button. When matching folders exist in both places, HQ warns that the SD version takes priority while Mod Link is enabled, but console-only files can still appear in the merged view. You can review and remove the redundant console copy from Mod Manager.
-
-Manual SD-to-console and console-to-SD copying remains available for compatibility, but Mod Link is the recommended everyday setup. Follow the on-screen confirmations carefully when copying or deleting. A console-to-SD move verifies the new copy before offering to remove the original. Deleting a console copy does not delete the SD copy.
-
+Mod Manager shows SD and console copies in one list, with each mod's name, author, and description.
 ---
 
 ## Controls
 
-Touch input is intentionally disabled. The Wii U GamePad, Wii U Pro Controller, Classic Controller/Classic Controller Pro, and Wii Remote can navigate HQ. The footer shows what each button does on the current screen.
+The Wii U GamePad, Wii U Pro Controller, Classic Controller/Classic Controller Pro, and Wii Remote can navigate HQ. The footer shows what each button does on the current screen.
 
 | Control | Action |
 |---|---|
