@@ -1,8 +1,8 @@
 <div align="center">
 
-# Black Ops 2 Unbound HQ
+#Unbound HQ
 
-**Black Ops 2 Unbound HQ** is a Wii U homebrew app for keeping Black Ops II Unbound current, managing local mods, and installing curated Aroma plugins.
+**Unbound HQ** is a Wii U homebrew app for keeping Black Ops II/Ghost Unbound current, managing local mods, and installing curated Aroma plugins.
 
 <br>
 
@@ -14,7 +14,7 @@
 
 ---
 
-HQ finds your supported Black Ops II game and official update, detects its region, language, and internal/USB storage location, and offers the right Unbound files. It can update the HQ app itself, apply full or patch game-content releases, launch the game, and manage mods from one place.
+HQ finds your supported Black Ops II/Ghost game and official update, detects its region, language, and internal/USB storage location, and offers the right Unbound files. It can update the HQ app itself, apply full or patch game-content releases, launch the game, and manage mods from one place.
 
 <div align="center">
 
