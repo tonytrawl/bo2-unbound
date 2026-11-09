@@ -136,4 +136,4 @@ For a bug report, include the HQ version and revision, game region, official upd
 
 Black Ops 2 Unbound HQ is an unofficial, fan-made homebrew project. It is not affiliated with, endorsed by, or sponsored by Activision, Treyarch, Nintendo, Pretendo Network, or any of their subsidiaries.
 
-Call of Duty, Black Ops II, Wii U, and related names and assets belong to their respective owners. You are responsible for using legally obtained game software and content. Do not distribute copyrighted game files, official DLC, encryption keys, tickets, or other protected material through this project. Use this software at your own risk.
+Call of Duty, Black Ops II, Wii U, and related names and assets belong to their respective owners. You are responsible for using legally obtained game software and content. 
