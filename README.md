@@ -26,7 +26,7 @@ HQ finds your supported Black Ops II/Ghost game and official update, detects its
 > Install the newest **official** Black Ops II update first: **v128 for USA and Europe**, or **v96 for Japan**. HQ does not supply the official game update or DLC.
 
 > [!WARNING]
-> Unbound is still in beta and changes files in your installed Black Ops II update. Back up anything you cannot easily replace, and do not interrupt an installation.
+> Unbound changes files in your installed Black Ops II/Ghost update. Back up anything you cannot easily replace, and do not interrupt an installation.
 
 ---
 
