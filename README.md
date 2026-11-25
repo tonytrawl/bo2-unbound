@@ -148,7 +148,6 @@ The Wii U GamePad, Wii U Pro Controller, Classic Controller/Classic Controller P
 | D-pad | Navigate cards and lists; scroll long text with Up/Down |
 | A | Select or confirm |
 | B | Back or cancel |
-| Minus in BO2 Mod Manager | Turn SD mod loading on or off |
 | X, or 1 on Wii Remote | Refresh Workshop or manage/delete a selected mod when shown in the footer |
 | Plus | Exit HQ |
 
