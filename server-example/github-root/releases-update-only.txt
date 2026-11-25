@@ -1,2 +1,0 @@
-# PACKAGE_KEY|VERSION|UPDATE_URL|UPDATE_SHA256
-# Activate a record only after its immutable GitHub Release asset is online.
