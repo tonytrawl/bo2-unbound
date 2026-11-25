@@ -21,8 +21,6 @@ inline constexpr const char* AppVersion = "1.5";
 // published WUHB, even when the display version is a beta or hotfix label.
 inline constexpr unsigned long long AppReleaseRevision = 66;
 
-// Replace YOUR_GITHUB_NAME and the repository name with your public distribution repository.
-// See server-example/README.md for the recommended GitHub repository and Release layout.
 inline constexpr const char* ReleasesUrl =
     "https://downloads.unc-bo2.fun/release-manifest.txt";
 inline constexpr const char* MapPacksUrl = "https://downloads.unc-bo2.fun/release-manifest.txt";

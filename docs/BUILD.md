@@ -32,4 +32,4 @@ python3 tests/map_publisher_tests.py
 
 `tools/render_v1.cpp` captures the real SDL UI with fixture data and verifies touch controls. Use a Wii U for final hardware testing.
 
-The application source is MIT licensed. Preserve bundled fonts, icons and other third-party license/attribution files.
+The application source is licensed under GNU GPLv3, version 3 only; see [LICENSE](../LICENSE) and [NOTICE](../NOTICE). Preserve copyright and author notices, mark modified versions and their change dates, and provide corresponding source when distributing binaries under GPLv3. Bundled fonts, icons and other third-party material retain their own license/attribution files. Earlier MIT releases retain their original license, preserved in [the legacy notice](../LICENSES/MIT-legacy.txt).

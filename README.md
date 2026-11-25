@@ -20,7 +20,7 @@ HQ finds your supported game and official update, detects its region, language, 
 
 **Guides:** [Install HQ](#installing-hq) Â· [Workshop](#workshop) Â· [Use local mods](#local-mods-and-mod-manager) Â· [Create mods with the Unbound T6 Mod Tool](README-T6_mod_Tool.md)
 
-**Open source:** [View the app source](source/) Â· [Build HQ](docs/BUILD.md) Â· [MIT license](LICENSE)
+**Open source:** [View the app source](source/) Â· [Build HQ](docs/BUILD.md) Â· [GPLv3 license](LICENSE)
 
 </div>
 
@@ -180,7 +180,7 @@ When reporting a bug, share this ZIP with the HQ version, game region, language,
 
 The **full Wii U application source is in this repository**: [source/](source/), [include/](include/), [tests/](tests/), [tools/](tools/), and the build assets.
 
-The application source uses the [MIT license](LICENSE). See [Build HQ](docs/BUILD.md) for build and verification instructions. Bundled third-party assets retain their own licenses and attribution files.
+The application source uses the [GNU GPLv3 license](LICENSE) (version 3 only). Copyright and author credit for Tony (tonytrawl) and contributors are preserved in [NOTICE](NOTICE). See [Build HQ](docs/BUILD.md) for build and verification instructions. Bundled third-party assets retain their own licenses and attribution files. Earlier MIT releases retain their original license; see [the legacy notice](LICENSES/MIT-legacy.txt).
 
 ---
 
