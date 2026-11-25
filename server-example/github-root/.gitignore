@@ -1,0 +1,12 @@
+# Release assets belong on GitHub Releases, not in Git history.
+*.zip
+*.wuhb
+*.rpx
+*.elf
+*.part
+
+# Local staging and editor files.
+release-assets/
+.DS_Store
+Thumbs.db
+*.tmp

@@ -1,0 +1,3 @@
+# PACKAGE_KEY|VERSION|UPDATE_URL|UPDATE_SHA256
+# Use a version newer than every split/AOC release.
+UNIVERSAL|0.0.05|https://github.com/OWNER/bo2-unbound/releases/download/v0.0.05/unbound-universal-0.0.05-full.zip|UPDATE_SHA256

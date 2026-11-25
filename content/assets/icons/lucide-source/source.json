@@ -1,0 +1,58 @@
+{
+  "project": "Lucide",
+  "repository": "https://github.com/lucide-icons/lucide",
+  "revision": "05232756c05e9ca7d5ad267e8694e9afa5d572fa",
+  "icons": [
+    {
+      "icon": "house",
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/05232756c05e9ca7d5ad267e8694e9afa5d572fa/icons/house.svg",
+      "bytes": 383
+    },
+    {
+      "icon": "download",
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/05232756c05e9ca7d5ad267e8694e9afa5d572fa/icons/download.svg",
+      "bytes": 318
+    },
+    {
+      "icon": "layout-grid",
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/05232756c05e9ca7d5ad267e8694e9afa5d572fa/icons/layout-grid.svg",
+      "bytes": 416
+    },
+    {
+      "icon": "folder",
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/05232756c05e9ca7d5ad267e8694e9afa5d572fa/icons/folder.svg",
+      "bytes": 342
+    },
+    {
+      "icon": "circle-question-mark",
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/05232756c05e9ca7d5ad267e8694e9afa5d572fa/icons/circle-question-mark.svg",
+      "bytes": 322
+    },
+    {
+      "icon": "arrow-up",
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/05232756c05e9ca7d5ad267e8694e9afa5d572fa/icons/arrow-up.svg",
+      "bytes": 261
+    },
+    {
+      "icon": "arrow-down",
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/05232756c05e9ca7d5ad267e8694e9afa5d572fa/icons/arrow-down.svg",
+      "bytes": 262
+    },
+    {
+      "icon": "arrow-left",
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/05232756c05e9ca7d5ad267e8694e9afa5d572fa/icons/arrow-left.svg",
+      "bytes": 262
+    },
+    {
+      "icon": "arrow-right",
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/05232756c05e9ca7d5ad267e8694e9afa5d572fa/icons/arrow-right.svg",
+      "bytes": 261
+    },
+    {
+      "icon": "play",
+      "url": "https://raw.githubusercontent.com/lucide-icons/lucide/05232756c05e9ca7d5ad267e8694e9afa5d572fa/icons/play.svg",
+      "bytes": 306
+    }
+  ],
+  "rasterization": "128x128 transparent white stroke; original SVG geometry preserved"
+}

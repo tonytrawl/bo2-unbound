@@ -1,0 +1,2 @@
+# LEGACY FEED - keep frozen for pre-0.0.02 HQ clients.
+# Fixed update-only HQ builds read releases-update-only.txt instead.

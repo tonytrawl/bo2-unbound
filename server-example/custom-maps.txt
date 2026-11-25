@@ -1,0 +1,12 @@
+# UNBOUND_CUSTOM_MAPS_V1
+# BO2: https://downloads.unc-bo2.fun/custom-maps.txt
+# Ghosts: https://downloads.unc-bo2.fun/ghosts/custom-maps.txt
+# Each game uses its own catalog. Empty catalogs are valid.
+# Use stable custom- IDs; changing a display name does not change installed identity.
+# PACK|custom-map-id|10|Map display name|Description
+# FILE|custom-map-id|FULL|-|1.0.1|https://downloads.unc-bo2.fun/custom-maps/Map-Name-v1.0.1.zip|SHA256|EXACT_ZIP_BYTES
+# FILE|custom-map-id|PATCH|1.0.0|1.0.1|https://downloads.unc-bo2.fun/custom-maps/Map-Name-v1.0.0-to-v1.0.1-patch.zip|SHA256|EXACT_ZIP_BYTES
+# A patch TO version must match the current FULL version; keep the latest FULL for fresh installs/reinstall.
+# ZIP payloads: update/content/... or content/...; @language follows the selected game language.
+# Code, mods and installer state are forbidden. Files install to the selected game's USB/NAND update.
+# Reuse tools/publish_map_catalog.py with --custom for CRC/hash/size checks and manifest generation.

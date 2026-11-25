@@ -1,0 +1,37 @@
+HQ package ZIP layout (r65 and later)
+
+release.zip
+  update/
+    code/...                  -> selected USB/NAND game update/code/...
+    content/@language/...     -> selected USB/NAND game update/content/<language>/...
+  sd/
+    mods/example/...          -> SD game content/mods/example/...
+
+The SD destination is sd:/unbound/content for BO2 and
+sd:/unbound-ghosts/content for Ghosts. Do not add another content folder below sd/.
+Either root can be omitted. Root folder names are update and sd; extra wrappers
+such as release/update are not accepted. ZIP Store and ZIP Deflate are supported.
+
+Official Core, map-pack and Custom Maps packages use these same routing rules.
+Map packs still cannot put code or mods in the game update; SD mods are allowed.
+Manifest SHA-256 and sizes must always describe the complete final ZIP.
+
+Workshop > Custom Packages browses folders on the SD card and reviews local ZIPs.
+An optional starting folder is sd:/unbound/packages (BO2) or
+sd:/unbound-ghosts/packages (Ghosts); the browser can navigate back to the SD root.
+Local packages keep their original ZIP and do not claim an official release version.
+An interrupted local package must finish using its original ZIP and destination.
+
+Workshop > Mods uses a separate mods.txt catalog for each game, with
+# UNBOUND_MODS_V1 and stable mod- IDs. PACK/FILE full and patch records follow
+the same format as Custom Maps; the latest full ZIP is available for reinstall.
+Prefer sd/mods/<folder>/... in mod ZIPs. update/content/mods/<folder>/... is also
+accepted for a console install. update/code/... can carry mod-specific code.
+Use tools/publish_map_catalog.py --mods to create verified entries. Do not put
+Mods listings into the Core/map-pack release manifest or Custom Maps catalog.
+
+Updates to installed Core/packs use one Confirm / Not now popup. Uninstalled
+optional packs remain in the existing initial/optional install-selection screen.
+All installed packs are checked, regardless of earlier installer selections.
+Time estimates use successful downloads and installs recorded in performance.log;
+until measurements are available, HQ labels its conservative initial estimates.

@@ -1,0 +1,20 @@
+UNC population heatmap data credits
+
+IP Geolocation by DB-IP — https://db-ip.com
+DB-IP Country Lite October 2026, Creative Commons Attribution 4.0:
+https://creativecommons.org/licenses/by/4.0/
+
+Country coordinates: mledoze/countries — https://github.com/mledoze/countries
+Open Database License 1.0; see COUNTRIES_LICENSE.txt.
+
+Adaptation: country lookup results are aggregated into 10-degree grid cells;
+client rendering represents occupied cells with soft dots. Locations are
+approximate country centers, not cities, GPS positions or individual homes.
+VPN locations may differ. The client receives no player IPs or identifiers.
+
+Stock globe material, shaders and textures are derived from the supplied
+Call of Duty: Black Ops II PC assets for integration into the teams' game ports.
+No new license to those game assets is granted by this handoff.
+
+Website icons: Lucide, ISC License. See /LUCIDE-LICENSE.txt.
+Country data license: /COUNTRIES_LICENSE.txt

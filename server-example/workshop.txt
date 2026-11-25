@@ -1,0 +1,3 @@
+# ID|NAME|CREATOR|DESCRIPTION|DOWNLOAD_URL|SHA256|UPVOTES|DOWNVOTES|COMMENTS|FEATURED_COMMENT
+# Escape a literal pipe as \| and a line break as \n.
+example-map|Example Zombies Map|Example Creator|An example workshop entry.|https://github.com/OWNER/bo2-unbound/releases/download/workshop-example-map-v1.0.0/example-map-1.0.0.zip|0000000000000000000000000000000000000000000000000000000000000000|24|2|5|A polished map that worked well in local co-op.

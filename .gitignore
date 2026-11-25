@@ -10,3 +10,26 @@ release-assets/
 .DS_Store
 Thumbs.db
 *.tmp
+
+# HQ source build outputs and local development files.
+/build/
+/build-*/
+/*.elf
+/*.rpx
+/*.wuhb
+/*.map
+/*_tests
+/*_tests.exe
+__pycache__/
+*.py[cod]
+.pytest_cache/
+/.wut-audit/
+/previews/
+/staging*/
+/release-*/
+/tools/unbound_packager/.build_deps/
+/tools/unbound_packager/.pyinstaller-build/
+/tools/unbound_packager/build/
+/tools/unbound_packager/dist/
+/r2-test/
+/.package-content/

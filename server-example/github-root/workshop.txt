@@ -1,0 +1,5 @@
+# ID|NAME|CREATOR|DESCRIPTION|DOWNLOAD_URL|SHA256|UPVOTES|DOWNVOTES|COMMENTS|FEATURED_COMMENT
+# These beta-preview entries cannot be downloaded. Replace them with reviewed Workshop assets.
+unbound-preview|Unbound Workshop Preview|Unbound Team|A placeholder listing used to test the Workshop item and comments interface.|https://example.invalid/unbound-preview.zip|0000000000000000000000000000000000000000000000000000000000000000|18|1|4|The Workshop service is coming soon.
+darksurvival-preview|Dark Survival Preview|Community Preview|Preview the store layout for community gameplay mods.|https://example.invalid/darksurvival-preview.zip|0000000000000000000000000000000000000000000000000000000000000000|12|2|3|This is a non-downloadable beta listing.
+fov-preview|DRC FOV Slider Preview|Community Preview|Preview the detail page for a user-interface mod.|https://example.invalid/fov-preview.zip|0000000000000000000000000000000000000000000000000000000000000000|9|1|2|Downloads will be enabled after moderation is online.

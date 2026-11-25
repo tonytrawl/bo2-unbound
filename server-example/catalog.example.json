@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-16T12:00:00Z",
+  "catalogVersion": "2026.09.16.1",
+  "mods": [
+    {
+      "id": "example-map",
+      "name": "Example Zombies Map",
+      "creator": "Example Creator",
+      "description": "An example workshop entry.",
+      "version": "1.0.0",
+      "compatibleSkus": ["USA", "EUR_EN_FR", "EUR_ES_IT", "EUR_DE", "JPN"],
+      "package": {
+        "url": "https://github.com/OWNER/bo2-unbound/releases/download/workshop-example-map-v1.0.0/example-map-1.0.0.zip",
+        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "byteSize": 1234567
+      },
+      "community": {
+        "upvotes": 24,
+        "downvotes": 2,
+        "commentCount": 5
+      }
+    }
+  ]
+}

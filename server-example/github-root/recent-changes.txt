@@ -1,0 +1,29 @@
+# Black Ops 2 Unbound HQ v0.0.15 Beta
+
+## Faster Workshop, clearer startup
+
+- **Workshop opens immediately** with your saved plugin listings, or the built-in listings when no saved copy exists. It no longer waits for every plugin to check for updates before showing you the page.
+- Press **X** in Workshop when you want to refresh the plugin list from GitHub. Opening a plugin page checks that plugin's latest release and install status before showing download or update options.
+- Noncritical startup notices are grouped into one scrollable message so you can read everything without dismissing a chain of popups.
+- If you have enabled a plugin's **Auto-Update**, HQ still checks and applies that update during startup; that verified work can take extra time.
+
+## Plugin availability
+
+- **Protarium** is temporarily unavailable in HQ. Its Workshop card is greyed out and marked **Coming Soon**; HQ will not install or auto-update it while this rollout is paused.
+- **Unbound Mod Link** remains available. Mods load directly from `sd:/unbound/content/mods` without copying them to USB or internal storage.
+- **GamePad Mic Redirect** remains available as an experimental plugin. It can route headset-only voice input through the GamePad's built-in microphone, with mute and push-to-talk controls.
+- In **Mod Manager**, press Minus to turn runtime mod linking on or off. SD and console copies are shown together; copy controls are still available.
+
+When Black Ops II starts, Mod Link merges only the SD `mods` folder into the game's
+`/vol/content/mods` view. The rest of the game remains untouched.
+
+Mod Link performs no release polling and shows no downloadable-content update notifications while
+games or the Wii U Menu are running. HQ remains the single place that checks for and installs
+Unbound updates.
+
+### Before you play
+
+- Use the current official Black Ops II update: v128 for USA/Europe or v96 for Japan.
+- A full console/Aroma restart is required after HQ installs or updates an Aroma plugin.
+- Disable regular SDCafiine for Black Ops II if it redirects the same content paths.
+- Future user-uploaded mods, comments, and ratings remain disabled for now.

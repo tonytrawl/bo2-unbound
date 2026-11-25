@@ -1,0 +1,5 @@
+ABOUT BLACK OPS 2 UNBOUND
+
+Replace this text with your project description, credits, team information, community links,
+and contact details. Keep it as UTF-8 plain text so a future in-app About screen can cache and
+display it safely.

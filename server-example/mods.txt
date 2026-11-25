@@ -1,0 +1,15 @@
+# UNBOUND_MODS_V1
+# BO2: https://downloads.unc-bo2.fun/mods.txt
+# Ghosts: https://downloads.unc-bo2.fun/ghosts/mods.txt
+# Each game has a separate catalog. Empty catalogs are valid.
+# Keep stable mod- IDs; display names can change without losing installed identity.
+# PACK|mod-example|10|Example Mod|Describe what the mod does and how to enable it.
+# FILE|mod-example|FULL|-|1.0.1|https://downloads.unc-bo2.fun/mods/Example-Mod-v1.0.1.zip|SHA256|EXACT_ZIP_BYTES
+# FILE|mod-example|PATCH|1.0.0|1.0.1|https://downloads.unc-bo2.fun/mods/Example-Mod-v1.0.0-to-v1.0.1-patch.zip|SHA256|EXACT_ZIP_BYTES
+# PATCH TO must match the latest FULL version. Keep FULL for fresh installs/reinstall.
+# ZIP: sd/mods/<folder>/... installs to the selected game's SD content/mods/<folder>/...
+# BO2 SD content: sd:/unbound/content; Ghosts SD content: sd:/unbound-ghosts/content.
+# update/content/... installs to the selected game's USB/NAND update (including content/mods).
+# update/code/... can include mod-specific code for the selected game's USB/NAND update.
+# No extra wrapper folder. ZIP Store/Deflate only. No metadata or installer state.
+# Use tools/publish_map_catalog.py --mods for ZIP CRC/hash/size checks and manifest generation.

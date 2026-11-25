@@ -1,0 +1,9 @@
+# UNBOUND_PLUGIN_RELEASE_V1
+# TEMPLATE ONLY: replace every uppercase placeholder before publishing.
+# HQ r28 supports the reviewed Protarium feed. This is a publishing template, not the live release.
+# Use a new immutable asset and a revision higher than every previously published revision.
+# PLUGIN_KEY|REVISION|VERSION|DOWNLOAD_URL|ARCHIVE_SHA256|ARCHIVE_BYTES
+PROTARIUM|REVISION|VERSION_OR_TAG|https://github.com/<PUBLISHER_GITHUB_OWNER>/<PUBLISHER_GITHUB_REPOSITORY>/releases/download/<RELEASE_TAG>/wiiu.zip|ARCHIVE_SHA256|ARCHIVE_BYTES
+# FILE|ARCHIVE_PATH|SHA256|BYTES
+FILE|wiiu/environments/aroma/modules/Inkay-pretendo.wms|WMS_SHA256|WMS_BYTES
+FILE|wiiu/environments/aroma/plugins/Inkay-pretendo.wps|WPS_SHA256|WPS_BYTES

@@ -1,0 +1,33 @@
+Unbound HQ support ZIP export (v1.5)
+
+Support > Export ZIP writes sd:/wiiu/apps/Unbound-HQ/support-report.zip.
+The current report is also kept as diagnostics.txt in the same HQ folder.
+
+ZIP layout:
+  hq/diagnostics.txt
+  hq/performance.log                         (when present)
+  hq/last-install-failure.txt                (when present)
+  hq/ghosts/last-install-failure.txt         (when present)
+  hq/native-link-census.txt                  (when present)
+  console/storage_slc/sys/logs/<files>
+  export-summary.txt
+
+Console logs are read from SLC's /sys/logs directory, exposed by FTP as
+/storage_slc/sys/logs/. All regular files are eligible, including .log, .dsc
+and binary index records. There is no recursive scan of SLC. No console log
+is modified, moved or deleted. Only the SD report files and destination ZIP
+are written. No collection takes place at startup.
+
+Collection is bounded: 512 log files total, 8 MiB per log, 128 MiB combined
+source logs and 2,048 scanned console directory entries. Directories, links,
+unsafe names and oversized files are skipped and recorded in the summary.
+Missing optional HQ logs are normal. If SLC is unavailable, HQ still exports
+its report and tells the user to check the summary for missing console logs.
+
+The ZIP uses Deflate compression. Entries are read back to EOF to verify
+data/CRC integrity before the temporary ZIP replaces the previous export.
+If writing or verification fails, the previous support ZIP is retained.
+Source logs are streamed rather than loaded into memory as one large dump.
+
+Export uses the normal loading screen, without Supply Run. The UI shows
+the number of console files collected and the SD destination on success.
