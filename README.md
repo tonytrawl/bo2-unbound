@@ -126,7 +126,6 @@ The Wii U GamePad, Wii U Pro Controller, Classic Controller/Classic Controller P
 - **Checksum or size mismatch:** Do not bypass it. Retry, then report a repeat failure with the exact error.
 - **Not enough free space:** Free space on the device HQ names. Both the SD download cache and the actual game-update storage need room.
 - **Missing BSP or fastfile:** Verify that the official update is current, installation finished without errors, and the release has all required map files under the update tree rather than an AOC path.
-- **Mod Link does not load an SD mod:** Check that the mod is under `sd:/unbound/content/mods/<mod-folder>/`, has a readable `modload.txt`, Mod Link is ON, and Aroma's content-redirection module is present. Restart the game after changing the switch; restart the console/Aroma after a plugin install or update.
 
 For a bug report, include the HQ version and revision, game region, official update version, internal/USB location, language, and exact on-screen message.
 
